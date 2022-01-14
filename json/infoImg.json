@@ -1,6 +1,4 @@
-{
-    "imgs":
-    [
+[
         {
             "prioridad" : 2, 
             "src" : "/IMG/SS/cert1.jpg",
@@ -106,5 +104,4 @@
             "src" : "/IMG/SS/seo.jpg",
             "alt" : "Certificado de Posicionamiento en Buscadores de Platzi"
         }
-    ]
-}
+]
