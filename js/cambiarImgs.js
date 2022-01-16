@@ -13,12 +13,18 @@ function mostrarImgs(){
             let datos =  JSON.parse(this.responseText);
             let res = document.querySelector('#listaImgs');
             res.innerHTML='';
-
+            let fila1 = true;
             for(let item of datos){
+                if(fila1==true){
+                    res.innerHTML += `
+                    <div class="row">
+                        <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">`
+                } else{
+                    res.innerHTML += `
+                        <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">`
+                }
+                fila1=!fila1;
                 res.innerHTML += `
-                <div class="row">
-                    <img id="img1" class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
-                    <img id="img2" class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
                 </div>`
             }
         }
