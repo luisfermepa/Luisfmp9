@@ -21,11 +21,10 @@ function mostrarImgs(){
                         <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">`
                 } else{
                     res.innerHTML += `
-                        <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">`
+                        <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
+                    </div>`
                 }
                 fila1=!fila1;
-                res.innerHTML += `
-                </div>`
             }
         }
     }
