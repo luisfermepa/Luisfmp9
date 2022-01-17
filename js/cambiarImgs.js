@@ -25,8 +25,8 @@ function mostrarImgs(){
                         <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
                     </div>`
                     res.innerHTML+=htmlTxt;
+                    htmlTxt='';
                 }
-                htmlTxt='';
                 fila1=!fila1;
             }
         }
