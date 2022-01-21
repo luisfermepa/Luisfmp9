@@ -12,9 +12,31 @@ function mostrarImgs(val){
 }
 
 function mostrarImgsPorPrioridad(prioridad_){
-    document.getElementById("Btn2").className = "active blue";
-    document.getElementById("Btn1").className = "waves-effect";
-    document.getElementById("BtnIzquierda").className = "waves-effect";
+    let listaBtns=document.getElementById("Botones");
+    
+    if(botones.hasChildNodes()){
+        var botones=listaBtns.childNodes;
+        for (var i = 0; i < children.length; i++) {
+            if(children[i].value==prioridad_){
+                children[i].className = "active blue";
+            } else {
+                children[i].className= "waves-effect";
+            }
+            if(prioridad_==1){
+                document.getElementById("BtnIzquierda").className = "disabled";
+                document.getElementById("BtnDerecha").className = "waves-effect";
+            } else {
+                if(prioridad<3){
+                    document.getElementById("BtnIzquierda").className = "waves-effect";
+                    document.getElementById("BtnDerecha").className = "waves-effect";
+                } else{
+                    document.getElementById("BtnIzquierda").className = "waves-effect";
+                    document.getElementById("BtnDerecha").className = "disabled";
+                }
+            }
+            
+        }
+    }
 
     const xhttp = new XMLHttpRequest();
     xhttp.open('GET', 'json/infoImg.json', true);
