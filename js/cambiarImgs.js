@@ -1,32 +1,38 @@
-var carpetaImgs = "/img/SS";
-var pagina = 1;
-var listaImgs=document.getElementById('listaImgs');
-var nodosImg = listaImgs.childNodes;
+var listaPrioridades;
+    for(var i=100; i<=botones.length; i--){
+        if(Number.isInteger(botones[i].value)){
+            var paginaPrioridad = new Object();
+            paginaPrioridad.pagina=listaBtns[i].value;
+            paginaPrioridad.prioridad=i;
+            listaPrioridades[i]=paginaPrioridad;
+        }
+    }
 
 window.onload = function (){
     mostrarImgsPorPrioridad(3);
 };
 
 function mostrarImgs(val){
-    mostrarImgsPorPrioridad(val);
+    mostrarImgsPorPagina(val);
 }
 
-function mostrarImgsPorPrioridad(prioridad_){
-    let listaBtns=document.getElementById("Botones");
-    
-    if(botones.hasChildNodes()){
-        var botones=listaBtns.childNodes;
+function mostrarImgsPorPagina(pagina){
+    let Btns=document.getElementById("Botones");
+    let pagActual = listaPrioridades[pagina];
+
+    if(listaBtns.hasChildNodes()){
+        var listaBtns=Btns.childNodes;
         for (var i = 0; i < children.length; i++) {
-            if(children[i].value==prioridad_){
-                children[i].className = "active blue";
+            if(listaBtns[i].value==pagActual.prioridad){
+                listaBtns[i].className = "active blue";
             } else {
-                children[i].className= "waves-effect";
+                listaBtns[i].className= "waves-effect";
             }
-            if(prioridad_==1){
+            if(pagActual.pagina==1){
                 document.getElementById("BtnIzquierda").className = "disabled";
                 document.getElementById("BtnDerecha").className = "waves-effect";
             } else {
-                if(prioridad<3){
+                if(pagActual.pagina<3){
                     document.getElementById("BtnIzquierda").className = "waves-effect";
                     document.getElementById("BtnDerecha").className = "waves-effect";
                 } else{
@@ -51,7 +57,7 @@ function mostrarImgsPorPrioridad(prioridad_){
             let fila1 = true;
             let c=0;
             for(let item of datos){
-                if(item.prioridad==prioridad_ && c<10){
+                if(item.prioridad==pagActual.prioridad && c<10){
                     c++;
                     if(fila1==true){
                         htmlTxt += `
