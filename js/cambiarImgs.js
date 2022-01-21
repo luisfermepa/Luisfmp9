@@ -1,3 +1,6 @@
+/*Mejorar recorrido, si tendré 3 prioridades, debería asignar prioridad 3 a las 1ras páginas hasta que no existan
+ elementos en el json con esa prioridad.
+*/
 var listaPrioridades;
     for(var i=100; i<=botones.length; i--){
         if(Number.isInteger(botones[i].value)){
