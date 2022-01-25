@@ -1,41 +1,39 @@
 /*Mejorar recorrido, si tendré 3 prioridades, debería asignar prioridad 3 a las 1ras páginas hasta que no existan
  elementos en el json con esa prioridad.
 */
-var listaPrioridades;
-    for(var i=100; i<=botones.length; i--){
-        if(Number.isInteger(botones[i].value)){
-            var paginaPrioridad = new Object();
-            paginaPrioridad.pagina=listaBtns[i].value;
-            paginaPrioridad.prioridad=i;
-            listaPrioridades[i]=paginaPrioridad;
-        }
-    }
+let Btns=document.getElementById("Botones");
+let listaBtns = Btns.childNodes;
 
 window.onload = function (){
     mostrarImgsPorPrioridad(3);
 };
 
-function mostrarImgs(val){
+function mostrarPagina(val){
     mostrarImgsPorPagina(val);
 }
 
 function mostrarImgsPorPagina(pagina){
-    let Btns=document.getElementById("Botones");
-    let pagActual = listaPrioridades[pagina];
+    var pagActual;
+    for(var i =0; i<listaBtns.length; i++){
+        if(listaBtns[i].className=="active blue"){
+            pagActual=listaBtns[i].value;
+        }
+    }
+    var prioridad;
+    prioridad=4-pagActual;
 
     if(listaBtns.hasChildNodes()){
-        var listaBtns=Btns.childNodes;
-        for (var i = 0; i < children.length; i++) {
-            if(listaBtns[i].value==pagActual.prioridad){
+        for (var i = 0; i < listaBtns.length; i++) {
+            if(listaBtns[i].value==pagina){
                 listaBtns[i].className = "active blue";
             } else {
                 listaBtns[i].className= "waves-effect";
             }
-            if(pagActual.pagina==1){
+            if(pagActual==1){
                 document.getElementById("BtnIzquierda").className = "disabled";
                 document.getElementById("BtnDerecha").className = "waves-effect";
             } else {
-                if(pagActual.pagina<3){
+                if(pagActual<3){
                     document.getElementById("BtnIzquierda").className = "waves-effect";
                     document.getElementById("BtnDerecha").className = "waves-effect";
                 } else{
@@ -60,7 +58,7 @@ function mostrarImgsPorPagina(pagina){
             let fila1 = true;
             let c=0;
             for(let item of datos){
-                if(item.prioridad==pagActual.prioridad && c<10){
+                if(item.prioridad==prioridad && c<10){
                     c++;
                     if(fila1==true){
                         htmlTxt += `
