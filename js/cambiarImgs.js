@@ -5,7 +5,7 @@ let Btns=document.getElementById("Botones");
 let listaBtns = Btns.childNodes;
 
 window.onload = function (){
-    mostrarImgsPorPrioridad(3);
+    mostrarImgsPorPagina(1);
 };
 
 function mostrarPagina(val){
