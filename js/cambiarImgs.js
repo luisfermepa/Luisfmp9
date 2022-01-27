@@ -13,16 +13,16 @@ function mostrarPagina(val){
 }
 
 function mostrarImgsPorPagina(pagina){
-    var pagActual;
-    for(var i =0; i<listaBtns.length; i++){
-        if(listaBtns[i].className=="active blue"){
-            pagActual=listaBtns[i].value;
-        }
-    }
-    var prioridad;
-    prioridad=4-pagActual;
-
     if(listaBtns.hasChildNodes()){
+        var pagActual;
+        for(var i =0; i<listaBtns.length; i++){
+            if(listaBtns[i].className=="active blue"){
+                pagActual=listaBtns[i].value;
+            }
+        }
+        var prioridad;
+        prioridad=4-pagActual;
+
         for (var i = 0; i < listaBtns.length; i++) {
             if(listaBtns[i].value==pagina){
                 listaBtns[i].className = "active blue";
