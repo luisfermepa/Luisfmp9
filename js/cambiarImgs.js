@@ -14,7 +14,6 @@ function mostrarPagina(val){
 
 function mostrarImgsPorPagina(pagina){
     if(Btns.hasChildNodes()){
-        console.log("xd");
         var pagActual;
         for(var i =0; i<listaBtns.length; i++){
             if(listaBtns[i].className=="active blue"){
