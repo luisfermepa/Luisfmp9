@@ -20,8 +20,23 @@ function mostrarImgsPorPagina(pagina){
                 pagActual=listaBtns[i].value;
             }
         }
+        
         var prioridadPagina;
+        //Asignación de Prioridad
         prioridadPagina=4-pagina;
+
+        if(pagina==1){
+            document.getElementById("BtnIzquierda").className = "disabled";
+            document.getElementById("BtnDerecha").className = "waves-effect";
+        } else {
+            if(pagina<3){
+                document.getElementById("BtnIzquierda").className = "waves-effect";
+                document.getElementById("BtnDerecha").className = "waves-effect";
+            } else{
+                document.getElementById("BtnIzquierda").className = "waves-effect";
+                document.getElementById("BtnDerecha").className = "disabled";
+            }
+        }
 
         for (var i = 0; i < listaBtns.length; i++) {
             if(listaBtns[i].value==pagina){
@@ -29,19 +44,6 @@ function mostrarImgsPorPagina(pagina){
             } else {
                 listaBtns[i].className= "waves-effect";
             }
-            if(pagActual==1){
-                document.getElementById("BtnIzquierda").className = "disabled";
-                document.getElementById("BtnDerecha").className = "waves-effect";
-            } else {
-                if(pagActual<3){
-                    document.getElementById("BtnIzquierda").className = "waves-effect";
-                    document.getElementById("BtnDerecha").className = "waves-effect";
-                } else{
-                    document.getElementById("BtnIzquierda").className = "waves-effect";
-                    document.getElementById("BtnDerecha").className = "disabled";
-                }
-            }
-            
         }
     }
 
@@ -60,6 +62,7 @@ function mostrarImgsPorPagina(pagina){
             for(let item of datos){
                 if(item.prioridad==prioridadPagina && c<10){
                     c++;
+                    console.log(c);
                     if(fila1==true){
                         htmlTxt += `
                         <div class="row">
