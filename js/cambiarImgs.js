@@ -20,8 +20,8 @@ function mostrarImgsPorPagina(pagina){
                 pagActual=listaBtns[i].value;
             }
         }
-        var prioridad;
-        prioridad=4-pagActual;
+        var prioridadPagina;
+        prioridadPagina=4-pagina;
 
         for (var i = 0; i < listaBtns.length; i++) {
             if(listaBtns[i].value==pagina){
@@ -58,7 +58,7 @@ function mostrarImgsPorPagina(pagina){
             let fila1 = true;
             let c=0;
             for(let item of datos){
-                if(item.prioridad==prioridad && c<10){
+                if(item.prioridad==prioridadPagina && c<10){
                     c++;
                     if(fila1==true){
                         htmlTxt += `
