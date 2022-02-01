@@ -63,7 +63,7 @@ function mostrarImgsPorPagina(pagina){
             for(let item of datos){
                 if(item.prioridad==prioridadPagina && c<10){
                     c++;
-                    if(fila==true && item==datos[datos.length-1]){
+                    if(fila1==true && item==datos[datos.length-1]){
                         htmlTxt+=`
                         <div class="row">
                             <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
