@@ -73,7 +73,7 @@ function mostrarImgsPorPagina(pagina){
                         res.innerHTML+=htmlTxt;
                         htmlTxt='';
                     }
-                    if(item.prioridad==3)
+                    if(pagina==3)
                         console.log(item.src+item.alt);
                     fila1=!fila1;
                 }
