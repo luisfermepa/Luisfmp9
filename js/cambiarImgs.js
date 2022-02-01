@@ -69,7 +69,7 @@ function mostrarImgsPorPagina(pagina){
                     cantidadPrioridad3++;
                 } else if(items.prioridad==2){
                     cantidadPrioridad2++;
-                } else if(items-prioridad==1){
+                } else if(items.prioridad==1){
                     cantidadPrioridad1++;
                 }
             }
