@@ -1,0 +1,107 @@
+[
+        {
+            "prioridad" : 2, 
+            "src" : "/img/SS/cert1.jpg",
+            "alt" : "Certificado de Introducción a la Terminal y Línea de Comandos de Platzi"
+        },
+        {
+            "prioridad" : 3,
+            "src" : "/img/SS/cert2.jpg",
+            "alt" : "Certificado por la participación en la IGDA Jam con el Proyecto Mictlán Challenge"
+        },
+        {
+            "prioridad" : 2,
+            "src" : "/img/SS/cert3.png",
+            "alt" : "Certificado de Fundamentos de Ingeniería de Software de Platzi"
+        },
+        {
+            "prioridad" : 2,
+            "src" : "/img/SS/desweb1.jpg",
+            "alt" : "Certificado de Introducción al Desarrollo Web 1 de Google"
+        },
+        {
+            "prioridad" : 2,
+            "src" : "/img/SS/desweb2.jpg",
+            "alt" : "Certificado de Introducción al Desarrollo Web 2 de Google"
+        },
+        {
+            "prioridad" : 3,
+            "src" : "/img/SS/foodWarGJ.png",
+            "alt" : "1er puesto en la Network Jam"
+        },
+        {
+            "prioridad" : 1,
+            "src" : "/img/SS/markvoz.jpg",
+            "alt" : "Certificado de Marketing de Voz a Voz de Platzi"
+        },
+        {
+            "prioridad" : 3,
+            "src" : "/img/SS/ods.jpg",
+            "alt" : "2do Puesto en Desafío ODS UPAO S360"
+        },
+        {
+            "prioridad" : 2,
+            "src" : "/img/SS/progr.jpg",
+            "alt" : "Certificado de Programación Básica de Platzi"
+        },
+        {
+            "prioridad" : 3,
+            "src" : "/img/SS/tallerstartups.jpg",
+            "alt" : "Certificado del Taller de Creación de Startups de Platzi"
+        },
+        {
+            "prioridad" : 2,
+            "src" : "/img/SS/blockchain.jpg",
+            "alt" : "Certificado de Blockchain Essentias de IBM"
+        },
+        {
+            "prioridad" : 2,
+            "src" : "/img/SS/comunicacion.jpg",
+            "alt" : "Certificado de Comunicación Efectiva para Equipos de Trabajo de Platzi"
+        },
+        {
+            "prioridad" : 2,
+            "src" : "/img/SS/finanzas.jpg",
+            "alt" : "Certificado de Finanzas para Startups de Platzi"
+        },
+        {
+            "prioridad" : 2,
+            "src" : "/img/SS/growth.jpg",
+            "alt" : "Certificado de Growth para Startups de Platzi"
+        },
+        {
+            "prioridad" : 2,
+            "src" : "/img/SS/internacionalizacion.jpg",
+            "alt" : "Certificado de Internacionalización para Startups de Platzi"
+        },
+        {
+            "prioridad" : 3,
+            "src" : "/img/SS/juegos.jpg",
+            "alt" : "Certificado de Introducción al Diseño de Videojuegos de Fundación Telefónica Movistar"
+        },
+        {
+            "prioridad" : 2,
+            "src" : "/img/SS/lider.jpg",
+            "alt" : "Certificado de Liderazgo para equipos de Trabajo de Platzi"
+        },
+        {
+            "prioridad" : 1,
+            "src" : "/img/SS/logistica.jpg",
+            "alt" : "Certificado de Logística para Startups de Platzi"
+        },
+        {
+            "prioridad" : 1,
+            "src" : "/img/SS/reclutamiento.jpg",
+            "alt" : "Certificado de Reclutamiento de Talento de Platzi"
+        },
+        {
+            "prioridad" : 3,
+            "src" : "/img/SS/scrum.jpg",
+            "alt" : "Certificado de Scrum Fundation Professional de CertiProf"
+        },
+        {
+            "prioridad" : 2,
+            "src" : "/img/SS/seo.jpg",
+            "alt" : "Certificado de Posicionamiento en Buscadores de Platzi"
+        }
+]
