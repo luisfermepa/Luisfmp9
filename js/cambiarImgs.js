@@ -13,27 +13,28 @@ function mostrarPagina(val){
 }
 
 function mostrarImgsPorPagina(pagina){
-    var pagActual;
-    for(var i =0; i<listaBtns.length; i++){
-        if(listaBtns[i].className=="active blue"){
-            pagActual=listaBtns[i].value;
-        }
-    }
-    var prioridadPag;
-    prioridadPag=4-pagActual;
-
+    
     if(listaBtns.hasChildNodes()){
+        var pagAnterior;
+        for(var i =0; i<listaBtns.length; i++){
+            if(listaBtns[i].className=="active blue"){
+                pagAnterior=listaBtns[i].value;
+            }
+        }
+        var prioridadPag;
+        prioridadPag=4-pagAnterior;
+    
         for (var i = 0; i < listaBtns.length; i++) {
             if(listaBtns[i].value==pagina){
                 listaBtns[i].className = "active blue";
             } else {
                 listaBtns[i].className= "waves-effect";
             }
-            if(pagActual==1){
+            if(pagAnterior==1){
                 document.getElementById("BtnIzquierda").className = "disabled";
                 document.getElementById("BtnDerecha").className = "waves-effect";
             } else {
-                if(pagActual<3){
+                if(pagAnterior<3){
                     document.getElementById("BtnIzquierda").className = "waves-effect";
                     document.getElementById("BtnDerecha").className = "waves-effect";
                 } else{
