@@ -63,11 +63,13 @@ function mostrarImgsPorPagina(pagina){
                     c++;
                     if(fila1==true){
                         htmlTxt += `
-                            <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">`
+                            <div class="row">
+                                <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">`
                         res.innerHTML+=htmlTxt;
                     } else{
                         htmlTxt += `
-                            <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
+                                <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
+                            </div>
                         `
                         res.innerHTML+=htmlTxt;
                         htmlTxt='';
