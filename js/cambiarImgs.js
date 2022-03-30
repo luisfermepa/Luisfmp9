@@ -65,7 +65,7 @@ function mostrarImgsPorPagina(pagina){
                         htmlTxt += `
                         <div class="row">
                             <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
-                        </div>`
+                        `
                         res.innerHTML+=htmlTxt;
                     } else{
                         htmlTxt += `
