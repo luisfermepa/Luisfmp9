@@ -14,7 +14,7 @@ function mostrarPagina(val){
 
 function mostrarImgsPorPagina(pagina){
     
-    if(listaBtns.hasChildNodes()){
+    if(Btns.hasChildNodes()){
         var pagAnterior;
         for(var i =0; i<listaBtns.length; i++){
             if(listaBtns[i].className=="active blue"){
