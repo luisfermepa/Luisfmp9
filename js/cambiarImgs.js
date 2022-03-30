@@ -34,7 +34,7 @@ function mostrarImgsPorPagina(pagina){
                 document.getElementById("BtnIzquierda").className = "disabled";
                 document.getElementById("BtnDerecha").className = "waves-effect";
             } else {
-                if(pagAnterior<3){
+                if(pagAnterior<listaBtns.length){
                     document.getElementById("BtnIzquierda").className = "waves-effect";
                     document.getElementById("BtnDerecha").className = "waves-effect";
                 } else{
@@ -63,13 +63,14 @@ function mostrarImgsPorPagina(pagina){
                     c++;
                     if(fila1==true){
                         htmlTxt += `
-                            <div class="row">
-                                <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">`
+                        <div class="row">
+                            <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
+                        </div>`
                         res.innerHTML+=htmlTxt;
                     } else{
                         htmlTxt += `
-                                <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
-                            </div>
+                            <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
+                        </div>
                         `
                         res.innerHTML+=htmlTxt;
                         htmlTxt='';
