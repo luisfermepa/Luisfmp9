@@ -74,7 +74,7 @@ function mostrarImgsPorPagina(pagina){
             for(let item of datos){
                 if(item.prioridad==prioridadPag && c<10){
                     c++;
-                    if(fila1==true && (c==10 || datos[datos.length-1]==item || (c==cantidadPrioridad3 && prioridadPagina==3) || (c==cantidadPrioridad2 && prioridadPagina==2) || (c==cantidadPrioridad1 && prioridadPagina==1))){
+                    if(fila1==true && (c==10 || datos[datos.length-1]==item || (c==cantidadPrioridad3 && prioridadPag==3) || (c==cantidadPrioridad2 && prioridadPag==2) || (c==cantidadPrioridad1 && prioridadPag==1))){
                         htmlTxt += `
                         <div class="row">
                             <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
