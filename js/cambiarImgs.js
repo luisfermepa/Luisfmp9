@@ -61,12 +61,20 @@ function mostrarImgsPorPagina(pagina){
             for(let item of datos){
                 if(item.prioridad==prioridadPag && c<10){
                     c++;
-                    if(fila1==true){
+                    if(fila1==true && c!=10){
                         htmlTxt += `
                         <div class="row">
                             <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
                         `
-                    } else{
+                    } else if (fila1==true && c==10){
+                        htmlTxt += `
+                        <div class="row">
+                            <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
+                        `
+                        res.innerHTML+=htmlTxt;
+                        htmlTxt='';
+                    }
+                    else{
                         htmlTxt += `
                             <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
                         </div>
