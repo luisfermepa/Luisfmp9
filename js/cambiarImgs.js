@@ -22,7 +22,7 @@ function mostrarImgsPorPagina(pagina){
             }
         }
         var prioridadPag;
-        prioridadPag=4-pagAnterior;
+        prioridadPag=4-pagina;
     
         for (var i = 0; i < listaBtns.length; i++) {
             if(listaBtns[i].value==pagina){
