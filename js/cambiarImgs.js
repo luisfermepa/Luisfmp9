@@ -58,21 +58,35 @@ function mostrarImgsPorPagina(pagina){
             let htmlTxt= '';
             let fila1 = true;
             let c=0;
+            let cantidadPrioridad1, cantidadPrioridad2, cantidadPrioridad3;
+            cantidadPrioridad1=0;
+            cantidadPrioridad2=0;
+            cantidadPrioridad3=0;
+            for(let items of datos){
+                if(items.prioridad==3){
+                    cantidadPrioridad3++;
+                } else if(items.prioridad==2){
+                    cantidadPrioridad2++;
+                } else if(items.prioridad==1){
+                    cantidadPrioridad1++;
+                }
+            }
             for(let item of datos){
                 if(item.prioridad==prioridadPag && c<10){
                     c++;
-                    if(fila1==true && c!=10){
+                    if(fila1==true && (c==10 || datos[datos.length-1]==item || (c==cantidadPrioridad3 && prioridadPagina==3) || (c==cantidadPrioridad2 && prioridadPagina==2) || (c==cantidadPrioridad1 && prioridadPagina==1))){
                         htmlTxt += `
                         <div class="row">
                             <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
-                        `
-                    } else if (fila1==true && c==10){
-                        htmlTxt += `
-                        <div class="row">
-                            <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
+                        </div>
                         `
                         res.innerHTML+=htmlTxt;
                         htmlTxt='';
+                    } else if (fila1==true){
+                        htmlTxt += `
+                        <div class="row">
+                            <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
+                        `
                     }
                     else{
                         htmlTxt += `
