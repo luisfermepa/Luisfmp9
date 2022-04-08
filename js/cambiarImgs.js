@@ -106,7 +106,6 @@ function mostrarImgsPorPagina(pagina){
             }
         }
     }
-    pagActual=pagina;
 }
 
 function mostrarPaginaSiguiente(){
