@@ -6,9 +6,10 @@ let listaBtns = Btns.childNodes;
 let cantidadDatos;
 //cantidadDatos=JSON.parse('json/infoImg.json');
 //cambiar con cada salto de pagina
-let pagActualConstante=1;
+let pagActual;
 
 window.onload = function (){
+    pagActual=1;
     mostrarImgsPorPagina(1);
 };
 
@@ -105,15 +106,15 @@ function mostrarImgsPorPagina(pagina){
             }
         }
     }
-    pagActualConstante=pagina;
+    pagActual=pagina;
 }
 
 function mostrarPaginaSiguiente(){
-
-
-    pagActualConstante++;
+    mostrarImgsPorPagina(pagActual+1);
+    pagActual++;
 }
 
 function mostrarPaginaAnterior(){
-    pagActualConstante--;
+    mostrarImgsPorPagina(pagActual-1);
+    pagActual--;
 }
