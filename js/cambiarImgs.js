@@ -39,7 +39,7 @@ function mostrarImgsPorPagina(pagina){
                 document.getElementById("BtnIzquierda").className = "disabled";
                 document.getElementById("BtnDerecha").className = "waves-effect";
             } else {
-                if(pagina<listaBtns.length){
+                if(pagina<listaBtns.length-1){
                     document.getElementById("BtnIzquierda").className = "waves-effect";
                     document.getElementById("BtnDerecha").className = "waves-effect";
                 } else{
