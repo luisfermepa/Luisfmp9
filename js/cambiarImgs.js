@@ -20,12 +20,7 @@ function mostrarPagina(val){
 function mostrarImgsPorPagina(pagina){
     
     if(Btns.hasChildNodes()){
-        var pagAnterior;
-        for(var i =0; i<listaBtns.length; i++){
-            if(listaBtns[i].className=="active blue"){
-                pagAnterior=listaBtns[i].value;
-            }
-        }
+
         var prioridadPag;
         prioridadPag=4-pagina;
     
@@ -39,7 +34,7 @@ function mostrarImgsPorPagina(pagina){
                 document.getElementById("BtnIzquierda").className = "disabled";
                 document.getElementById("BtnDerecha").className = "waves-effect";
             } else {
-                if(pagina<listaBtns.length-1){
+                if(pagina<listaBtns.length-2){
                     document.getElementById("BtnIzquierda").className = "waves-effect";
                     document.getElementById("BtnDerecha").className = "waves-effect";
                 } else{
