@@ -11,7 +11,6 @@ let pagActual;
 window.onload = function (){
     pagActual=1;
     mostrarImgsPorPagina(1);
-    console.log(pagActual);
 };
 
 function mostrarPagina(val){
