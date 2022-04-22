@@ -13,6 +13,12 @@ window.onload = function (){
     mostrarImgsPorPagina(1);
 };
 
+document.getElementById("btnIzq").addEventListener("click", mostrarPaginaAnterior,false);
+document.getElementById("Btn1").addEventListener("click", mostrarPagina(document.getElementById("Btn1").value), false);
+document.getElementById("Btn2").addEventListener("click", mostrarPagina(document.getElementById("Btn2").value), false);
+document.getElementById("Btn3").addEventListener("click", mostrarPagina(document.getElementById("Btn3").value), false);
+document.getElementById("btnDer").addEventListener("click",mostrarPaginaSiguiente,false);
+
 function mostrarPagina(val){
     mostrarImgsPorPagina(val);
 }
