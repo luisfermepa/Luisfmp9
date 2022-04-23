@@ -113,11 +113,15 @@ function mostrarImgsPorPagina(pagina){
 }
 
 function mostrarPaginaSiguiente(){
-    mostrarImgsPorPagina(pagActual+1);
-    pagActual++;
+    if(pagActual<listaBtns.length-2){
+        mostrarImgsPorPagina(pagActual+1);
+        pagActual++;
+    }
 }
 
 function mostrarPaginaAnterior(){
-    mostrarImgsPorPagina(pagActual-1);
-    pagActual--;
+    if(pagActual>1){
+        mostrarImgsPorPagina(pagActual-1);
+        pagActual--;
+    }
 }
