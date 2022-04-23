@@ -3,6 +3,7 @@
 */
 let Btns=document.getElementById("Botones");
 let listaBtns = Btns.childNodes;
+let tamannoListaBtns=listaBtns.length;
 let cantidadDatos;
 //cantidadDatos=JSON.parse('json/infoImg.json');
 //cambiar con cada salto de pagina
@@ -33,7 +34,8 @@ function mostrarImgsPorPagina(pagina){
         var prioridadPag;
         prioridadPag=4-pagina;
     
-        for (var i = 0; i < listaBtns.length; i++) {
+        var i=tamannoListaBtns;
+        for (; i >= 0; i--) {
             if(listaBtns[i].value==pagina){
                 listaBtns[i].className = "active blue";
             } else {
@@ -43,7 +45,7 @@ function mostrarImgsPorPagina(pagina){
                 document.getElementById("BtnIzquierda").className = "disabled";
                 document.getElementById("BtnDerecha").className = "waves-effect";
             } else {
-                if(pagina<listaBtns.length-2){
+                if(pagina<tamannoListaBtns-2){
                     document.getElementById("BtnIzquierda").className = "waves-effect";
                     document.getElementById("BtnDerecha").className = "waves-effect";
                 } else{
@@ -113,7 +115,7 @@ function mostrarImgsPorPagina(pagina){
 }
 
 function mostrarPaginaSiguiente(){
-    if(pagActual<listaBtns.length-2){
+    if(pagActual<tamannoListaBtns-2){
         mostrarImgsPorPagina(pagActual+1);
         pagActual++;
     }
