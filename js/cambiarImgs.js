@@ -11,7 +11,6 @@ let pagActual;
 
 window.onload = function (){
     pagActual=1;
-    alert(tamannoListaBtns);
     mostrarImgsPorPagina(1);
     pag1=document.getElementById("Btn1").value;
     pag2=document.getElementById("Btn2").value;
