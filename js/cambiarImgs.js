@@ -11,13 +11,16 @@ let pagActual;
 window.onload = function (){
     pagActual=1;
     mostrarImgsPorPagina(1);
+    pag1=document.getElementById("Btn1").value;
+    pag2=document.getElementById("Btn2").value;
+    pag3=document.getElementById("Btn3").value;
 };
 
 document.getElementById("btnIzq").addEventListener("click", mostrarPaginaAnterior,false);
-document.getElementById("Btn1").addEventListener("click", function(){mostrarPagina(document.getElementById("Btn1").value)}, false);
-document.getElementById("Btn2").addEventListener("click", function(){mostrarPagina(document.getElementById("Btn2").value)}, false);
-document.getElementById("Btn3").addEventListener("click", function(){mostrarPagina(document.getElementById("Btn3").value)}, false);
-document.getElementById("btnDer").addEventListener("click",mostrarPaginaSiguiente,false);
+document.getElementById("Btn1").addEventListener("click", function(){mostrarPagina(pag1)}, false);
+document.getElementById("Btn2").addEventListener("click", function(){mostrarPagina(pag2)}, false);
+document.getElementById("Btn3").addEventListener("click", function(){mostrarPagina(pag3)}, false);
+document.getElementById("btnDer").addEventListener("click", mostrarPaginaSiguiente,false);
 
 function mostrarPagina(val){
     mostrarImgsPorPagina(val);
