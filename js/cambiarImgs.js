@@ -11,6 +11,7 @@ let pagActual;
 
 window.onload = function (){
     pagActual=1;
+    alert(tamannoListaBtns);
     mostrarImgsPorPagina(1);
     pag1=document.getElementById("Btn1").value;
     pag2=document.getElementById("Btn2").value;
@@ -34,7 +35,7 @@ function mostrarImgsPorPagina(pagina){
         var prioridadPag;
         prioridadPag=4-pagina;
     
-        var i=tamannoListaBtns;
+        var i=tamannoListaBtns-1;
         for (; i >= 0; i--) {
             if(listaBtns[i].value==pagina){
                 listaBtns[i].className = "active blue";
