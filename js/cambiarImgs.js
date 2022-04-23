@@ -112,18 +112,17 @@ function mostrarImgsPorPagina(pagina){
             }
         }
     }
+    pagActual=pagina;
 }
 
 function mostrarPaginaSiguiente(){
     if(pagActual<tamannoListaBtns-2){
         mostrarImgsPorPagina(pagActual+1);
-        pagActual++;
     }
 }
 
 function mostrarPaginaAnterior(){
     if(pagActual>1){
         mostrarImgsPorPagina(pagActual-1);
-        pagActual--;
     }
 }
