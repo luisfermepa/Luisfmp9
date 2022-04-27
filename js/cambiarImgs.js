@@ -110,9 +110,9 @@ function mostrarImgsPorPagina(pagina){
                     fila1=!fila1;
                 }
             }
+            pagActual=pagina;
         }
     }
-    pagActual=pagina;
 }
 
 function mostrarPaginaSiguiente(){
