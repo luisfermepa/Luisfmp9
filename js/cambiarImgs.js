@@ -31,7 +31,7 @@ function mostrarImgsPorPagina(pagina){
     
     if(Btns.hasChildNodes()){
 
-        let prioridadPag;
+        var prioridadPag;
         prioridadPag=4-pagina;
     
         let i=tamannoListaBtns-1;
