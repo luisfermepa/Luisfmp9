@@ -31,10 +31,10 @@ function mostrarImgsPorPagina(pagina){
     
     if(Btns.hasChildNodes()){
 
-        var prioridadPag;
+        let prioridadPag;
         prioridadPag=4-pagina;
     
-        var i=tamannoListaBtns-1;
+        let i=tamannoListaBtns-1;
         for (; i >= 0; i--) {
             if(listaBtns[i].value==pagina){
                 listaBtns[i].className = "active blue";
