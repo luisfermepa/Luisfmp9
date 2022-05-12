@@ -82,7 +82,6 @@ function mostrarImgsPorPagina(pagina){
                     cantidadPrioridad1++;
                 }
             }
-            alert(datos.length);
             for(let item of datos){
                 if(item.prioridad==prioridadPag && c<10){
                     c++;
