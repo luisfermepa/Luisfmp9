@@ -4,8 +4,8 @@
 let Btns=document.getElementById("Botones");
 let listaBtns = Btns.childNodes;
 let tamannoListaBtns=listaBtns.length;
-let cantidadDatos;
-//cantidadDatos=JSON.parse('json/infoImg.json');
+//listaImgs=JSON.parse('json/infoImg.json');
+//let cantidadDatos=listaImgs.length;
 //cambiar con cada salto de pagina
 let pagActual;
 
