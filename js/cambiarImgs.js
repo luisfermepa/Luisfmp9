@@ -82,9 +82,8 @@ function mostrarImgsPorPagina(pagina){
                     cantidadPrioridad1++;
                 }
             }
-            for(let [item, indx] of datos.entries()){
+            for(let item of datos){
                 if(item.prioridad==prioridadPag && c<10){
-                    console.log(indx);
                     c++;
                     if(fila1==true && (c==10 || datos[datos.length-1]==item || (c==cantidadPrioridad3 && prioridadPag==3) || (c==cantidadPrioridad2 && prioridadPag==2) || (c==cantidadPrioridad1 && prioridadPag==1))){
                         htmlTxt += `
