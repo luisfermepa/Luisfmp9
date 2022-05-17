@@ -3,9 +3,9 @@ html {
 }
 
 body::-webkit-scrollbar {
-    width: 1px;
+    width: 8px;
     background: none;
-    background-color: transparent;
+    background-color: rgb(75, 75, 243, .5);
 }
 
 body::-webkit-scrollbar-thumb {
