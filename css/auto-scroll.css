@@ -4,10 +4,12 @@ html {
 
 body::-webkit-scrollbar {
     width: 8px;
+    background: scroll;
     background-color: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: rgb(75, 75, 243);
+    background-color: rgb(75, 75, 243, .2);
     border-radius: 5px;
+    border-right: 2px transparent;
 }
