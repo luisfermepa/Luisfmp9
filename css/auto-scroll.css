@@ -11,5 +11,5 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background-color: rgb(75, 75, 243);
     border-radius: 7px;
-    border-right: 2px transparent;
+    border-right: 4px rgb(75, 75, 243);
 }
