@@ -49,7 +49,7 @@
         <li><a class="flow-text" href="filosofia"><h5>Filosofía</h5></a></li>
     </ul>
 
-    <div class="container section">
+    <div class="container section section scrollspy" id="container">
         <div class="row">
             <div class="col s12">
                 <h3 class="blue-text text-darken-2 center" id="titulo">
@@ -61,7 +61,7 @@
         </div>
     </div>
     
-    <ul id="Botones" class="pagination container section center"><li id="BtnIzquierda" class="disabled" value="i"><a href="#titulo" id="btnIzq"><i class="material-icons">chevron_left</i></a></li><li class="active blue" id="Btn1" value="1"><a href="#titulo">1</a></li><li class="waves-effect" id="Btn2" value="2"><a href="#titulo">2</a></li><li class="waves-effect" id="Btn3" value="3"><a href="#titulo">3</a></li><li id="BtnDerecha" class="waves-effect" value="d"><a href="#titulo" id="btnDer"><i class="material-icons">chevron_right</i></a></li></ul>
+    <ul id="Botones" class="pagination container section center"><li id="BtnIzquierda" class="disabled" value="i"><a href="#container" id="btnIzq"><i class="material-icons">chevron_left</i></a></li><li class="active blue" id="Btn1" value="1"><a href="#titulo">1</a></li><li class="waves-effect" id="Btn2" value="2"><a href="#titulo">2</a></li><li class="waves-effect" id="Btn3" value="3"><a href="#titulo">3</a></li><li id="BtnDerecha" class="waves-effect" value="d"><a href="#titulo" id="btnDer"><i class="material-icons">chevron_right</i></a></li></ul>
 
     <footer class="page-footer blue darken-3">
         <div class="container">
@@ -104,6 +104,11 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             M.AutoInit();
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.scrollspy');
+            var instances = M.ScrollSpy.init(elems, options);
         });
     </script>
 </body>
