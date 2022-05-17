@@ -3,7 +3,7 @@ html {
 }
 
 body::-webkit-scrollbar {
-    width: 0px;
+    width: 1px;
     background: none;
     background-color: transparent;
 }
