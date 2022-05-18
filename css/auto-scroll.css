@@ -5,11 +5,11 @@ html {
 body::-webkit-scrollbar {
     width: 8px;
     background: none;
-    background-color: rgb(75, 75, 243, 0);
+    background-color: rgba(75, 162, 243, 0);
 }
 
 body::-webkit-scrollbar-thumb {
     background-color: rgb(75, 75, 243);
     border-radius: 7px;
-    border-right: 4px rgb(75, 75, 243);
+    border-right: 4px;
 }
