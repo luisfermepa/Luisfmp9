@@ -5,7 +5,7 @@ html {
 body::-webkit-scrollbar {
     width: 8px;
     background: none;
-    background-color: rgb(75, 75, 243, .5);
+    background-color: rgb(75, 75, 243, 0);
 }
 
 body::-webkit-scrollbar-thumb {
