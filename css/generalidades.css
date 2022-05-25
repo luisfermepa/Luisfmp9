@@ -2,12 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: #f2f7ff;
-}
-h1{
-    color: #91a1fa;
-    font-family: 'Berkshire Swash', cursive;
 }
 
 /*.material-icons{
@@ -23,4 +19,13 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background-color: rgb(75, 75, 243);
     border-radius: 7px;
+}
+
+h1 {
+    color: #91a1fa;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+a {
+    color: rgb(8, 89, 104);
 }
