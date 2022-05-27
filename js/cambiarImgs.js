@@ -88,7 +88,7 @@ function mostrarImgsPorPagina(pagina){
                     if(fila1==true && (c==10 || datos[datos.length-1]==item || (c==cantidadPrioridad3 && prioridadPag==3) || (c==cantidadPrioridad2 && prioridadPag==2) || (c==cantidadPrioridad1 && prioridadPag==1))){
                         htmlTxt += `
                         <div class="row">
-                            <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
+                            <img class="col l6 m12 s12 responsive-img" src="${item.src}" alt="${item.alt}">
                         </div>
                         `
                         res.innerHTML+=htmlTxt;
@@ -96,12 +96,12 @@ function mostrarImgsPorPagina(pagina){
                     } else if (fila1==true){
                         htmlTxt += `
                         <div class="row">
-                            <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
+                            <img class="col l6 m12 s12 responsive-img" src="${item.src}" alt="${item.alt}">
                         `
                     }
                     else{
                         htmlTxt += `
-                            <img class="col s12 l6 responsive-img" src="${item.src}" alt="${item.alt}">
+                            <img class="col l6 m12 s12 responsive-img" src="${item.src}" alt="${item.alt}">
                         </div>
                         `
                         res.innerHTML+=htmlTxt;
