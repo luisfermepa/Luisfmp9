@@ -29,4 +29,4 @@ class Header extends HTMLElement {
     }
 }
 
-customElements.define('MiHeader',Header);
+customElements.define('mi-header',Header);
