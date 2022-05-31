@@ -66,6 +66,8 @@ class Footer extends HTMLElement {
                 </div>
             </footer>
         `
+    }
+}
 
 customElements.define('mi-header', Header);
 customElements.define('mi-footer', Footer);
