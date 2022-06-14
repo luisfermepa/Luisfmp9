@@ -18,11 +18,11 @@ class Header extends HTMLElement {
                     </nav>
                 </div>
                 <ul class="sidenav" id="menu-responsive">
-                    <li><a class="flow-text" href="/"><h5>Luisfmp</h5></a></li>
-                    <li><a class="flow-text" href="portafolios"><h5>Portafolios</h5></a></li>
-                    <li><a class="flow-text" href="reconocimientos"><h5>Reconocimientos</h5></a></li>
-                    <li><a class="flow-text" href="blogs"><h5>Blogs</h5></a></li>
-                    <li><a class="flow-text" href="filosofia"><h5>Filosofía</h5></a></li>
+                    <li><a href="/"><h5>Luisfmp</h5></a></li>
+                    <li><a href="portafolios"><h5>Portafolios</h5></a></li>
+                    <li><a href="reconocimientos"><h5>Reconocimientos</h5></a></li>
+                    <li><a href="blogs"><h5>Blogs</h5></a></li>
+                    <li><a href="filosofia"><h5>Filosofía</h5></a></li>
                 </ul>
             </header>
         `
