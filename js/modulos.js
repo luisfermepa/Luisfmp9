@@ -4,7 +4,7 @@ class Header extends HTMLElement {
             <header>
                 <div class="navbar-fixed">
                     <nav class="blue darken-2">
-                        <div class="nav-wrapper container blue darken-2">
+                        <div class="nav-wrapper valign-wrapper blue darken-2">
                             <a href="/" class="brand-logo hide-on-med-and-up">Luisfmp</a>
                             <a href="#" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                             <ul>
