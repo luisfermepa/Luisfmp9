@@ -8,11 +8,11 @@ class Header extends HTMLElement {
                             <a href="/" class="brand-logo hide-on-med-and-up">Luisfmp</a>
                             <a href="#" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                             <ul>
-                                <li><a class="hide-on-med-and-down" href="/">Luisfmp</a></li>
-                                <li><a class="hide-on-small-only" href="portafolios">Portafolios</a></li>
-                                <li><a class="hide-on-small-only" href="reconocimientos">Reconocimientos</a></li>
-                                <li><a class="hide-on-small-only" href="blogs">Blogs</a></li>
-                                <li><a class="hide-on-med-and-down" href="filosofia">Filosofía</a></li>
+                                <li><a class="hide-on-med-and-down" href="/"><h6>Luisfmp</h6</a></li>
+                                <li><a class="hide-on-small-only" href="portafolios"><h6>Portafolios</h6></a></li>
+                                <li><a class="hide-on-small-only" href="reconocimientos"><h6>Reconocimientos</h6></a></li>
+                                <li><a class="hide-on-small-only" href="blogs"><h6>Blogs</h6></a></li>
+                                <li><a class="hide-on-med-and-down" href="filosofia"><h6>Filosofía</h6></a></li>
                             </ul>
                         </div>
                     </nav>
