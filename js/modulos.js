@@ -7,7 +7,7 @@ class Header extends HTMLElement {
                         <div class="nav-wrapper valign-wrapper container blue darken-2">
                             <a href="/" class="brand-logo hide-on-med-and-up">Luisfmp</a>
                             <a href="#" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                            <ul>
+                            <ul class="valign-wrapper">
                                 <li><a class="hide-on-med-and-down" href="/"><h6>Luisfmp</h6></a></li>
                                 <li><a class="hide-on-small-only" href="portafolios"><h6>Portafolios</h6></a></li>
                                 <li><a class="hide-on-small-only" href="reconocimientos"><h6>Reconocimientos</h6></a></li>
