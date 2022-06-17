@@ -16,5 +16,5 @@ btnEnvio.addEventListener('click', function(e){
 
     window.location.href=`mailto:luisfermepa9@gmail.com?
     subject=${asuntoCompleto}&
-    body=Nombre%3A%20${nombresCompletos}%0ACorreo%3A%20${email}%0AMensaje%3A%20${mensaje}`;
+    body=Nombre: ${nombresCompletos}%0ACorreo: ${email}%0AMensaje: ${mensaje}`;
 });
