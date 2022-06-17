@@ -4,7 +4,7 @@ btnEnvio.addEventListener('click', function(e){
     e.preventDefault();
     const nombres =document.getElementById('nombres').value;
     const apellidos=document.getElementById('apellidos').value;
-    const nombresCompletos=nombres+apellidos;
+    const nombresCompletos=nombres+" "+apellidos;
     const email=document.getElementById('email').value;
     const asuntoDesarrolloWeb=document.getElementById('checkWeb').value;
     const asuntoVideojuegos=document.getElementById('checkVideojuegos').value;
@@ -15,6 +15,5 @@ btnEnvio.addEventListener('click', function(e){
     const mensaje=document.getElementById('mensaje').value;
 
     window.location.href=`mailto:luisfermepa9@gmail.com?
-    subject=${asuntoCompleto}&
-    body=Nombre: ${nombresCompletos}%0ACorreo: ${email}%0AMensaje: ${mensaje}`;
+    subject=${asuntoCompleto}&body=Nombre%3A%20${nombresCompletos}.%0ACorreo%3A%20${email}%0AMensaje%3A%20${mensaje}`;
 });
