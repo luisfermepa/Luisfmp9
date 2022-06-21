@@ -1,4 +1,4 @@
-const btnEnvio = document.getElementById('btnEnviar');
+/*const btnEnvio = document.getElementById('btnEnviar');
 
 btnEnvio.addEventListener('click', function(e){
     e.preventDefault();
@@ -16,4 +16,4 @@ btnEnvio.addEventListener('click', function(e){
 
     window.location.href=`mailto:luisfermepa9@gmail.com?
     subject=${asuntoCompleto}&body=Nombre%3A%20${nombresCompletos}.%0ACorreo%3A%20${email}%0AMensaje%3A%20${mensaje}`;
-});
+});*/
