@@ -13,6 +13,7 @@ class Header extends HTMLElement {
                                 <li><a class="hide-on-small-only" href="reconocimientos"><h6>Reconocimientos</h6></a></li>
                                 <li><a class="hide-on-small-only" href="blogs"><h6>Blogs</h6></a></li>
                                 <li><a class="hide-on-med-and-down" href="filosofia"><h6>Filosofía</h6></a></li>
+                                <li><a class="hide-on-med-and-down" href="contacto"><h6>Contácto</h6></a></li>
                             </ul>
                         </div>
                     </nav>
@@ -23,6 +24,7 @@ class Header extends HTMLElement {
                     <li><a href="reconocimientos"><h5>Reconocimientos</h5></a></li>
                     <li><a href="blogs"><h5>Blogs</h5></a></li>
                     <li><a href="filosofia"><h5>Filosofía</h5></a></li>
+                    <li><a href="Contacto"><h5>Contácto</h5></a></li>
                 </ul>
             </header>
         `
@@ -37,7 +39,7 @@ class Footer extends HTMLElement {
                     <div class="row">
                     <div class="col l6 s12">
                         <h5 class="white-text">Contáctame</h5>
-                        <p class="grey-text text-lighten-4">Siéntete libre de contactarme por estos medios :)</p>
+                        <p class="grey-text text-lighten-4">Puedes contactarme por estos medios :)</p>
                         <p>+51 914 609 873</p>
                         <p>luisfermepa9@gmail.com</p>
                     </div>
