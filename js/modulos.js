@@ -13,7 +13,7 @@ class Header extends HTMLElement {
                                 <li><a class="hide-on-small-only" href="reconocimientos"><h6>Reconocimientos</h6></a></li>
                                 <li><a class="hide-on-small-only" href="blogs"><h6>Blogs</h6></a></li>
                                 <li><a class="hide-on-med-and-down" href="filosofia"><h6>Filosofía</h6></a></li>
-                                <li><a class="hide-on-med-and-down" href="contacto"><h6>Contácto</h6></a></li>
+                                <li><a class="hide-on-med-and-down" href="contacto"><h6>Contacto</h6></a></li>
                             </ul>
                         </div>
                     </nav>
@@ -24,7 +24,7 @@ class Header extends HTMLElement {
                     <li><a href="reconocimientos"><h5>Reconocimientos</h5></a></li>
                     <li><a href="blogs"><h5>Blogs</h5></a></li>
                     <li><a href="filosofia"><h5>Filosofía</h5></a></li>
-                    <li><a href="Contacto"><h5>Contácto</h5></a></li>
+                    <li><a href="Contacto"><h5>Contacto</h5></a></li>
                 </ul>
             </header>
         `
