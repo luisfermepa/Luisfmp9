@@ -2,26 +2,30 @@
  elementos en el json con esa prioridad.
 */
 let Btns=document.getElementById("Botones");
-let listaBtns = Btns.childNodes;
-let tamannoListaBtns=listaBtns.length;
+let listaBtns=Btns.childNodes;
+let tamannoListaBtns=listaBtns.length-1;
 //listaImgs=JSON.parse('json/infoImg.json');
 //let cantidadDatos=listaImgs.length;
 //cambiar con cada salto de pagina
 let pagActual;
+let btnIzq=document.getElementById("btnIzq");
+let btnDer=document.getElementById("btnDer");
 
 window.onload = function (){
     pagActual=1;
     mostrarImgsPorPagina(1);
-    pag1=document.getElementById("Btn1").value;
-    pag2=document.getElementById("Btn2").value;
-    pag3=document.getElementById("Btn3").value;
 };
 
-document.getElementById("btnIzq").addEventListener("click", mostrarPaginaAnterior,false);
-document.getElementById("Btn1").addEventListener("click", function(){mostrarPagina(pag1)}, false);
-document.getElementById("Btn2").addEventListener("click", function(){mostrarPagina(pag2)}, false);
-document.getElementById("Btn3").addEventListener("click", function(){mostrarPagina(pag3)}, false);
-document.getElementById("btnDer").addEventListener("click", mostrarPaginaSiguiente,false);
+btnIzq.addEventListener("click", mostrarPaginaAnterior,false);
+btnDer.addEventListener("click", mostrarPaginaSiguiente,false);
+
+let i=tamannoListaBtns;
+for(; i>=0; i--){
+    if(listaBtns[i]==btnDer || listaBtns[i]==btnIzq){
+    } else{
+        listaBtns[i].addEventListener("click", function(){mostrarPagina(i)}, false);
+    }
+}
 
 function mostrarPagina(val){
     mostrarImgsPorPagina(val);
@@ -34,7 +38,7 @@ function mostrarImgsPorPagina(pagina){
         var prioridadPag;
         prioridadPag=4-pagina;
     
-        let i=tamannoListaBtns-1;
+        let i=tamannoListaBtns;
         for (; i >= 0; i--) {
             if(listaBtns[i].value==pagina){
                 listaBtns[i].className = "active blue";
@@ -45,7 +49,7 @@ function mostrarImgsPorPagina(pagina){
                 document.getElementById("BtnIzquierda").className = "disabled";
                 document.getElementById("BtnDerecha").className = "waves-effect";
             } else {
-                if(pagina<tamannoListaBtns-2){
+                if(pagina<tamannoListaBtns-1){
                     document.getElementById("BtnIzquierda").className = "waves-effect";
                     document.getElementById("BtnDerecha").className = "waves-effect";
                 } else{
@@ -116,7 +120,7 @@ function mostrarImgsPorPagina(pagina){
 }
 
 function mostrarPaginaSiguiente(){
-    if(pagActual<tamannoListaBtns-2){
+    if(pagActual<tamannoListaBtns-1){
         mostrarImgsPorPagina(pagActual+1);
     }
 }
