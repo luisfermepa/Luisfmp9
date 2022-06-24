@@ -19,8 +19,8 @@ window.onload = function (){
 btnIzq.addEventListener("click", mostrarPaginaAnterior,false);
 btnDer.addEventListener("click", mostrarPaginaSiguiente,false);
 
-let i=tamannoListaBtns+1;
-for(; i>0; i--){
+let i=tamannoListaBtns;
+for(; i>=0; i--){
     if(listaBtns[i].value==="i" || listaBtns[i].value==="d"){
     } else{
         listaBtns[i].addEventListener("click", function(){mostrarPagina(i)}, false);
