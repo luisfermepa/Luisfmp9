@@ -21,7 +21,7 @@ btnDer.addEventListener("click", mostrarPaginaSiguiente,false);
 
 let i=tamannoListaBtns+1;
 for(; i>0; i--){
-    if(listaBtns[i]==btnDer || listaBtns[i]==btnIzq){
+    if(listaBtns[i].value==="i" || listaBtns[i].value==="d"){
     } else{
         listaBtns[i].addEventListener("click", function(){mostrarPagina(i)}, false);
     }
