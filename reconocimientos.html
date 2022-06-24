@@ -56,6 +56,11 @@
             M.AutoInit();
         });
 
+        var options= {
+            throttle: 100,
+            scrollOffset: 200
+        };
+
         document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.scrollspy');
             var instances = M.ScrollSpy.init(elems, options);
