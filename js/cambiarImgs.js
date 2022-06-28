@@ -23,7 +23,7 @@ var ii=tamannoListaBtns;
 for(; ii>=0; ii--){
     if(listaBtns[ii].value==0 || listaBtns[ii].value==0){
     } else{
-        document.getElementById("btn"+ii).addEventListener("click", function(){mostrarPagina(ii)}, false);
+        document.getElementById("btn"+ii).addEventListener("click", function(){mostrarPagina(ii)}, true);
     }
 }
 
