@@ -19,11 +19,11 @@ window.onload = function (){
 btnIzq.addEventListener("click", mostrarPaginaAnterior,false);
 btnDer.addEventListener("click", mostrarPaginaSiguiente,false);
 
-let i=tamannoListaBtns;
-for(; i>=0; i--){
-    if(listaBtns[i].value==0 || listaBtns[i].value==0){
+var ii=tamannoListaBtns;
+for(; ii>=0; ii--){
+    if(listaBtns[ii].value==0 || listaBtns[ii].value==0){
     } else{
-        document.getElementById("btn"+i).addEventListener("click", mostrarPagina(i), false);
+        document.getElementById("btn"+ii).addEventListener("click", function(){mostrarPagina(ii)}, false);
     }
 }
 
