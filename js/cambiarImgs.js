@@ -29,6 +29,7 @@ for(let i=tamannoListaBtns; i>=0; i--){
 
 function mostrarPagina(val){
     mostrarImgsPorPagina(val);
+    console.log(val);
 }
 
 function mostrarImgsPorPagina(pagina){
