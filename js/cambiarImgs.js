@@ -1,15 +1,15 @@
 /*Mejorar recorrido, si tendré 3 prioridades, debería asignar prioridad 3 a las 1ras páginas hasta que no existan
  elementos en el json con esa prioridad.
 */
-let Btns=document.getElementById("Botones");
-let listaBtns=Btns.childNodes;
-let tamannoListaBtns=listaBtns.length-1;
+const Btns=document.getElementById("Botones");
+const listaBtns=Btns.childNodes;
+const tamannoListaBtns=listaBtns.length-1;
 //listaImgs=JSON.parse('json/infoImg.json');
 //let cantidadDatos=listaImgs.length;
 //cambiar con cada salto de pagina
 let pagActual;
-let btnIzq=document.getElementById("btnIzq");
-let btnDer=document.getElementById("btnDer");
+const btnIzq=document.getElementById("btnIzq");
+const btnDer=document.getElementById("btnDer");
 
 window.onload = function (){
     pagActual=1;
@@ -19,11 +19,10 @@ window.onload = function (){
 btnIzq.addEventListener("click", mostrarPaginaAnterior,false);
 btnDer.addEventListener("click", mostrarPaginaSiguiente,false);
 
-var ii=tamannoListaBtns;
-for(; ii>=0; ii--){
-    if(listaBtns[ii].value==0 || listaBtns[ii].value==0){
+for(i=tamannoListaBtns; i>=0; i--){
+    if(listaBtns[i].value==0 || listaBtns[i].value==0){
     } else{
-        document.getElementById("btn"+ii).addEventListener("click", function(){mostrarPagina(ii)}, true);
+        document.getElementById("btn"+i).addEventListener("click", function(){mostrarPagina(i)}, true);
     }
 }
 
