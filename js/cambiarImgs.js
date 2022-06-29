@@ -22,7 +22,7 @@ btnDer.addEventListener("click", mostrarPaginaSiguiente,false);
 for(i=tamannoListaBtns; i>=0; i--){
     if(listaBtns[i].value==0 || listaBtns[i].value==0){
     } else{
-        var i2=i;
+        let i2=i;
         document.getElementById("btn"+i).addEventListener("click", function(){mostrarPagina(i2)}, true);
     }
 }
