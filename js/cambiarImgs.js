@@ -16,8 +16,8 @@ window.onload = function (){
     mostrarImgsPorPagina(1);
 };
 
-btnIzq.addEventListener("click", mostrarPaginaAnterior,false);
-btnDer.addEventListener("click", mostrarPaginaSiguiente,false);
+btnIzq.addEventListener("click", mostrarPaginaAnterior,true);
+btnDer.addEventListener("click", mostrarPaginaSiguiente,true);
 
 for(let i=tamannoListaBtns; i>=0; i--){
     if(listaBtns[i].value==0 || listaBtns[i].value==0){
