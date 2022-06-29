@@ -19,11 +19,10 @@ window.onload = function (){
 btnIzq.addEventListener("click", mostrarPaginaAnterior,false);
 btnDer.addEventListener("click", mostrarPaginaSiguiente,false);
 
-for(i=tamannoListaBtns; i>=0; i--){
+for(let i=tamannoListaBtns; i>=0; i--){
     if(listaBtns[i].value==0 || listaBtns[i].value==0){
     } else{
-        let i2=i;
-        document.getElementById("btn"+i).addEventListener("click", function(){mostrarPagina(i2)}, true);
+        document.getElementById("btn"+i).addEventListener("click", function(){mostrarPagina(i)}, true);
     }
 }
 
