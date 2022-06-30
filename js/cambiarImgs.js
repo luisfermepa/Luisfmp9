@@ -22,14 +22,12 @@ btnDer.addEventListener("click", mostrarPaginaSiguiente,true);
 for(let i=tamannoListaBtns; i>=0; i--){
     if(listaBtns[i].value==0 || listaBtns[i].value==0){
     } else{
-        console.log(i+" "+typeof i);
         document.getElementById("btn"+i).addEventListener("click", function(){mostrarPagina(i)}, true);
     }
 }
 
 function mostrarPagina(val){
     mostrarImgsPorPagina(val);
-    console.log(val);
 }
 
 function mostrarImgsPorPagina(pagina){
