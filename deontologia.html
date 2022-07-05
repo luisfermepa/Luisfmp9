@@ -74,7 +74,7 @@
 
             .catch (err => {
                 let message=err.statusText || "Ocurrió un error";
-                $main.innerHTML = `Error $(err.status): $(message)`;
+                $main.innerHTML = `Error ${err.status}: ${message}`;
             });
     </script>
 
