@@ -24,7 +24,7 @@ class Header extends HTMLElement {
                     <li><a href="reconocimientos"><h5>Reconocimientos</h5></a></li>
                     <li><a href="blogs"><h5>Blogs</h5></a></li>
                     <li><a href="filosofia"><h5>Filosofía</h5></a></li>
-                    <li><a href="Contacto"><h5>Contacto</h5></a></li>
+                    <li><a href="contacto"><h5>Contacto</h5></a></li>
                 </ul>
             </header>
         `
