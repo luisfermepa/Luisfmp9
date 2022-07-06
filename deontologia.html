@@ -34,7 +34,7 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col s12">
+                <div class="col s12" id="colum">
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
     <script>
         const d=document,
-            $main=d.querySelector("main");
+            $main=d.querySelector("#colum");
 
         fetch("md/deontologia.md")
             .then(res => res.ok ? res.text() : Promise.reject(res))
