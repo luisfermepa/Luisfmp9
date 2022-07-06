@@ -47,7 +47,7 @@
         const d=document,
             $main=d.querySelector("#colum");
 
-        fetch("md/deontologia.md")
+        fetch("md/deontologia2.md")
             .then(res => res.ok ? res.text() : Promise.reject(res))
             .then(text => {
                 $main.innerHTML=new showdown.Converter().makeHtml(text);
@@ -58,7 +58,7 @@
                 $main.innerHTML = `Error ${err.status}: ${message}`;
             });
     </script>
-    
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
     </script>
