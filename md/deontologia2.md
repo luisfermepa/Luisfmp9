@@ -1,4 +1,4 @@
-<h2 class="center-align blue-text  text-darken-2">
+<h2 class="center-align blue-text text-darken-2">
 Apuntes y Análisis sobre Ética y Deontología - (2/2)
 </h2>
 <h3 class="blue-text text-darken-3">Estática Profesional</h3>
