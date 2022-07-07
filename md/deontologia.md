@@ -1,5 +1,6 @@
 <h2 class="center-align blue-text text-darken-2">
-Apuntes y Análisis sobre Ética y Deontología - (1/2)</h2>
+Apuntes y Análisis sobre Ética y Deontología - (1/2)
+</h2>
 
 Hola, haré un análisis y extensión de mis notas reflexionadas en el curso "Ética y Deontología" dictado por el profesor Fernando Robert Araujo Coronel en la "UPAO (Universidad Privada Antenor Orrego)" ubicada en "Trujillo (Perú)" y demás conocimientos obtenidos de diversas fuentes, ya que para crear hay primero que consumir, inspirarse y tener ideas encontradas con autores previos.
 
