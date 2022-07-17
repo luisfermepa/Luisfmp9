@@ -10,9 +10,9 @@ Me hizo recordar la clásica frase "una imagen vale más que mil palabras", si e
 "Las películas y libros son monólogos, los juegos son conversaciones"
 Ya que en la vida tenemos muchas conversaciones e interacciones y decisiones, considero a la vida un videojuego ultracomplejo en el que tienes 1 vida y si naces en latam puede ser más complejo, depende otros factores iniciales que no son justos del todo, pero igualmente ya nacimos, así que no queda más que jugar, pero se suele definir a los juegos como sistemas cerrados o con posibilidades a decisiones limitadas, cuando nuestras vidas quizás también lo son, quizás tenemos muchas posibilidades como en juegos de mundo abierto, pero no infinitas, lo que sí son esas decisiones son irreversibles e impactantes hasta el fin de nuestras vidas y el fin del o de los universos.
 
-IMAGEN 1
+![¿Qué es el diseño según Eric Zimmerman?](img/SS/Blogs/diseño-videojuegos1.png)
 
-IMAGEN 2
+![¿Qué es un juego según Eric Zimmerman & Katie Salen?](img/SS/Blogs/diseño-videojuegos2.png)
 
 Me gustó más la definición de Eric Zimmerman y Katie Salen, personalmente me gusta hacer las cosas más profundas y filosóficas, así que mi definición de juego sería más amplia y flexible.
 
@@ -52,7 +52,7 @@ La alquimia era uno de esos caminos que la humanidad seguía erradamente, pero l
 Sobre la diversión narrativa, no necesariamente debe ser de un punto A hacia un punto B, ya que pueden existir múltiples puntos iniciales A: A1, A2, etc. e igualmente múltiples puntos finales...
 como ya mencioné en videojuegos por generación procedural, como en juegos de mundo abierto o multijugadores.
 
-IMAGEN 3
+![Tecnología Mecánica y Narrativa](img/SS/Blogs/diseño-videojuegos3.png)
 
 Sobre esta imagen en la clase "¿De dónde viene un juego?", falta el flujo desde narrativa hacia mecánica, se puede iniciar definiendo la narrativa o arte que tendrá el videojuego y eso lleva a definir o decidir qué mecánicas utilizar para contar dicha historia.
 

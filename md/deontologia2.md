@@ -31,12 +31,12 @@ También lo ha sido de cerrazón para evitar todo tipo de “intrusismo”, cuan
 
 Grupos influyentes y poderosos encargados de coartar, en vez de estimular, el debate público, a través del código se ponen límites al avance y al cambio. Una profesión es dinámica y cambiante; un problema es dinámico, se presenta con otros problemas entrelazados; una situación en la que se comienza a intervenir, puede tener otros matices mañana e incluso ser muy diferente al finalizar la intervención. Por consiguiente, el código deontológico debe ser abierto, no coercitivo, sino orientador, el código no puede ser, en definitiva, un recetario cerrado y coactivo a la manera y estilo de los códigos civiles.
 
-<img class="responsive-img" src="img/SS/Blogs/static.png" alt="representación de estática">
+![Representación de Estática](img/SS/Blogs/static.png)
 
-Imágen generada por una IA, dónde únicamente le pasas texto y genera imágenes. Puedes usarla gratis aquí:
+Imágen generada por una IA, dónde únicamente le pasas texto y genera imágenes. Puedes usarla gratis:
 
-<a href="https://colab.research.google.com/drive/15UwYDsnNeldJFHJ9NdgYBYeo6xPmSelP?usp=sharing">https://colab.research.google.com/drive/15UwYDsnNeldJFHJ9NdgYBYeo6xPmSelP?usp=sharing</a>
+[IA generadora de imágenes, mediante texto](https://colab.research.google.com/drive/15UwYDsnNeldJFHJ9NdgYBYeo6xPmSelP?usp=sharing "IA generadora de imágenes, mediante texto")
 
 Solo debes modificar esta línea de código:
 
-<img class="responsive-img" src="img/SS/Blogs/codigo.png" alt="codigo python de la librería mencionada">
+![Codigo python de la librería mencionada](img/SS/Blogs/codigo.png)
