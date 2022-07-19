@@ -10,9 +10,9 @@ Me hizo recordar la clásica frase "una imagen vale más que mil palabras", si e
 "Las películas y libros son monólogos, los juegos son conversaciones"
 Ya que en la vida tenemos muchas conversaciones e interacciones y decisiones, considero a la vida un videojuego ultracomplejo en el que tienes 1 vida y si naces en latam puede ser más complejo, depende otros factores iniciales que no son justos del todo, pero igualmente ya nacimos, así que no queda más que jugar, pero se suele definir a los juegos como sistemas cerrados o con posibilidades a decisiones limitadas, cuando nuestras vidas quizás también lo son, quizás tenemos muchas posibilidades como en juegos de mundo abierto, pero no infinitas, lo que sí son esas decisiones son irreversibles e impactantes hasta el fin de nuestras vidas y el fin del o de los universos.
 
-![¿Qué es el diseño según Eric Zimmerman?](img/SS/Blogs/disenno-videojuegos1.png)
+![¿Qué es el diseño según Eric Zimmerman?](/img/SS/Blogs/disenno-videojuegos1.png)
 
-![¿Qué es un juego según Eric Zimmerman & Katie Salen?](img/SS/Blogs/disenno-videojuegos2.png)
+![¿Qué es un juego según Eric Zimmerman & Katie Salen?](/img/SS/Blogs/disenno-videojuegos2.png)
 
 Me gustó más la definición de Eric Zimmerman y Katie Salen, personalmente me gusta hacer las cosas más profundas y filosóficas, así que mi definición de juego sería más amplia y flexible.
 
