@@ -52,7 +52,7 @@ La alquimia era uno de esos caminos que la humanidad seguía erradamente, pero l
 Sobre la diversión narrativa, no necesariamente debe ser de un punto A hacia un punto B, ya que pueden existir múltiples puntos iniciales A: A1, A2, etc. e igualmente múltiples puntos finales...
 como ya mencioné en videojuegos por generación procedural, como en juegos de mundo abierto o multijugadores.
 
-![Tecnología Mecánica y Narrativa](img/SS/Blogs/disenno-videojuegos3.png)
+![Tecnología Mecánica y Narrativa](/img/SS/Blogs/disenno-videojuegos3.png)
 
 Sobre esta imagen en la clase "¿De dónde viene un juego?", falta el flujo desde narrativa hacia mecánica, se puede iniciar definiendo la narrativa o arte que tendrá el videojuego y eso lleva a definir o decidir qué mecánicas utilizar para contar dicha historia.
 
