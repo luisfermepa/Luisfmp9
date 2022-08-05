@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Contácto con Luisfmp</title>
+    <link rel="icon" href="icon.ico">
+    <link rel="stylesheet" href="css/generalidades.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <script type="module" src="js/modulos.js"></script>
+</head>
+
+<body>
+    <mi-header></mi-header>
+
+    <main>
+        <div class="container section">
+            <h3 class="text blue-text text-darken-3 center">Formulario de Contácto</h3>
+            <form action="https://formsubmit.co/luisfermepa9@gmail.com" method="POST">
+                <div class="row">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input name="nombres" id="nombres" required type="text" class="validate black-text">
+                            <label class="black-text" for="nombres">Nombres Completos</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input name="apellidos" id="apellidos" required type="text" class="validate black-text">
+                            <label class="black-text" for="apellidos">Apellidos Completos</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">email</i>
+                            <input name="email" id="email" required type="email" class="validate black-text">
+                            <label class="black-text" for="email">Email</label>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="black-text bold">Asuntos de contácto:</h6>
+                <div class="row">
+                    <div class="col s6">
+                        <p>
+                            <label>
+                            <input name="checkWeb" id="checkWeb" type="checkbox" value="Desarrollo Web"/>
+                            <span class="black-text">Desarrollo Web</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                            <input name="checkVideojuegos" id="checkVideojuegos" type="checkbox" value="Desarrollo de Videojuegos"/>
+                            <span class="black-text">Desarrollo de Videojuegos</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="col s6">
+                        <p>
+                            <label>
+                            <input name="checkTec" id="checkTec" type="checkbox" value="Tecnología"/>
+                            <span class="black-text">Tecnología</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                            <input name="checkGestion" id="checkGestion" type="checkbox" value="Gestión"/>
+                            <span class="black-text">Gestión</span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input name="otrosAsuntos"" id="otrosAsuntos" type="text" class="validate black-text">
+                    <label class="black-text" for="otrosAsuntos">Otros Asuntos</label>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <textarea name="mensaje" id="mensaje" required type="text" class="materialize-textarea validate black-text"></textarea>
+                    <label class="black-text" for="mensaje">Mensaje</label>
+                </div>
+                <div class="row"></div>
+                <div class="row center">
+                    <div class="col s12">
+                        <button name="btnEnviar" id="btnEnviar" class="btn-large waves-effect waves-light" type="submit" name="action">Enviar
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+                <input type="hidden" name="_next" value="https://luisfmp9.github.io/contacto">
+                <input type="hidden" name="_captcha" value="true">
+            </form>
+        </div>
+    </main>
+    
+    <mi-footer></mi-footer>
+
+    <script src="js/formulario.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+        });
+    </script>
+</body>
+</html>
