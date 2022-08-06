@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis Ética y Deontología (1/2)</title>
+    <meta name="description" content="Análisis sobre mis apuntos del curso de Ética y Deontología">
+    <meta name="keywords" content="ética, deontología, moral, análisis, blog, luisfmp, Luis Fernando Mercado Paredes">
+    <meta name="author" content="Luis Fernando Mercado Paredes">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="icon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/generalidades.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLTCJKBEQF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HLTCJKBEQF');
+    </script>
+    <script type="module" src="modulos.js"></script>
+</head>
+
+<body>
+    <mi-header></mi-header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s12" id="colum">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <mi-footer></mi-footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <script>
+        const d=document,
+            $main=d.querySelector("#colum");
+
+        fetch("/md/deontologia.md")
+            .then(res => res.ok ? res.text() : Promise.reject(res))
+            .then(text => {
+                $main.innerHTML=new showdown.Converter().makeHtml(text);
+            })
+
+            .catch (err => {
+                let message=err.statusText || "Ocurrió un error";
+                $main.innerHTML = `Error ${err.status}: ${message}`;
+            });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+        });
+    </script>
+</body>
+</html>
