@@ -8,23 +8,23 @@ class Header extends HTMLElement {
                             <a href="/" class="brand-logo hide-on-med-and-up">Luisfmp</a>
                             <a href="#" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                             <ul class="valign-wrapper">
-                                <li><a class="hide-on-med-and-down" href="/"><h6>Luisfmp</h6></a></li>
-                                <li><a class="hide-on-small-only" href="portafolios"><h6>Portafolios</h6></a></li>
-                                <li><a class="hide-on-small-only" href="reconocimientos"><h6>Reconocimientos</h6></a></li>
-                                <li><a class="hide-on-small-only" href="blogs"><h6>Blogs</h6></a></li>
-                                <li><a class="hide-on-med-and-down" href="filosofia"><h6>Filosofía</h6></a></li>
-                                <li><a class="hide-on-med-and-down" href="contacto"><h6>Contacto</h6></a></li>
+                                <li><a class="hide-on-med-and-down" href="//"><h6>Luisfmp</h6></a></li>
+                                <li><a class="hide-on-small-only" href="/portafolios"><h6>Portafolios</h6></a></li>
+                                <li><a class="hide-on-small-only" href="/reconocimientos"><h6>Reconocimientos</h6></a></li>
+                                <li><a class="hide-on-small-only" href="/blogs"><h6>Blogs</h6></a></li>
+                                <li><a class="hide-on-med-and-down" href="/filosofia"><h6>Filosofía</h6></a></li>
+                                <li><a class="hide-on-med-and-down" href="/contacto"><h6>Contacto</h6></a></li>
                             </ul>
                         </div>
                     </nav>
                 </div>
                 <ul class="sidenav" id="menu-responsive">
-                    <li><a href="/"><h5>Luisfmp</h5></a></li>
-                    <li><a href="portafolios"><h5>Portafolios</h5></a></li>
-                    <li><a href="reconocimientos"><h5>Reconocimientos</h5></a></li>
-                    <li><a href="blogs"><h5>Blogs</h5></a></li>
-                    <li><a href="filosofia"><h5>Filosofía</h5></a></li>
-                    <li><a href="contacto"><h5>Contacto</h5></a></li>
+                    <li><a href="//"><h5>Luisfmp</h5></a></li>
+                    <li><a href="/portafolios"><h5>Portafolios</h5></a></li>
+                    <li><a href="/reconocimientos"><h5>Reconocimientos</h5></a></li>
+                    <li><a href="/blogs"><h5>Blogs</h5></a></li>
+                    <li><a href="/filosofia"><h5>Filosofía</h5></a></li>
+                    <li><a href="/contacto"><h5>Contacto</h5></a></li>
                 </ul>
             </header>
         `
@@ -61,7 +61,7 @@ class Footer extends HTMLElement {
                                 <p class="grey-text text-lighten-4 left valign-wrapper">© 2022 Luis Fernando Mercado Predes</p>
                             </div>
                             <div class="col s4">
-                                <a class="grey-text text-lighten-4 left valign-wrapper" href="/">luisfmp.com</a>
+                                <a class="grey-text text-lighten-4 left valign-wrapper" href="//">luisfmp.com</a>
                             </div>
                         </div>
                     </div>
