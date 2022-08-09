@@ -31,7 +31,7 @@ También lo ha sido de cerrazón para evitar todo tipo de “intrusismo”, cuan
 
 Grupos influyentes y poderosos encargados de coartar, en vez de estimular, el debate público, a través del código se ponen límites al avance y al cambio. Una profesión es dinámica y cambiante; un problema es dinámico, se presenta con otros problemas entrelazados; una situación en la que se comienza a intervenir, puede tener otros matices mañana e incluso ser muy diferente al finalizar la intervención. Por consiguiente, el código deontológico debe ser abierto, no coercitivo, sino orientador, el código no puede ser, en definitiva, un recetario cerrado y coactivo a la manera y estilo de los códigos civiles.
 
-![Representación de Estática](img/SS/Blogs/static.png)
+![Representación de Estática](/img/SS/Blogs/static.png)
 
 Imágen generada por una IA, dónde únicamente le pasas texto y genera imágenes. Puedes usarla gratis:
 
@@ -39,4 +39,4 @@ Imágen generada por una IA, dónde únicamente le pasas texto y genera imágene
 
 Solo debes modificar esta línea de código:
 
-![Codigo python de la librería mencionada](img/SS/Blogs/codigo.png)
+![Codigo python de la librería mencionada](/img/SS/Blogs/codigo.png)
