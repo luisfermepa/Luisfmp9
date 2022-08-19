@@ -1,6 +1,6 @@
-/** {
+/* * {
     border: solid 2px red
-} */
+}*/
 
 html {
     scroll-behavior: smooth;
@@ -32,4 +32,12 @@ h1 {
 
 a {
     color: rgb(15, 135, 156);
+}
+
+.redesSociales {
+    width: 200px;
+}
+
+.corazones {
+    width: 120px;
 }
