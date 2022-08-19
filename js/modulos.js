@@ -1,12 +1,13 @@
 class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+            <header>
                 <div class="navbar-fixed">
                     <nav class="blue darken-2">
-                        <div class="nav-wrapper blue darken-2">
+                        <div class="nav-wrapper valign-wrapper container blue darken-2">
                             <a href="/" class="brand-logo hide-on-med-and-up">Luisfmp</a>
                             <a href="#" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                            <ul id="nav-mobile" class="left">
+                            <ul class="left valign-wrapper">
                                 <li><a class="hide-on-med-and-down" href="/"><h6>Luisfmp</h6></a></li>
                                 <li><a class="hide-on-small-only" href="portafolios"><h6>Portafolios</h6></a></li>
                                 <li><a class="hide-on-small-only" href="reconocimientos"><h6>Reconocimientos</h6></a></li>
@@ -25,6 +26,7 @@ class Header extends HTMLElement {
                     <li><a href="filosofia"><h5>Filosofía</h5></a></li>
                     <li><a href="contacto"><h5>Contacto</h5></a></li>
                 </ul>
+            </header>
         `
     }
 }
