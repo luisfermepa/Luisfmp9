@@ -34,12 +34,16 @@ a {
     color: rgb(15, 135, 156);
 }
 
-.redesSociales {
-    width: 200px;
+.espacio {
+    width: 50px;
 }
 
 .corazones {
     width: 120px;
+}
+
+.redesSociales {
+    width: 200px;
 }
 
 .imgEnlace {
