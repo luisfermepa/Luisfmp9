@@ -13,3 +13,5 @@ Pero bueno estas creencias poco a poco pierden fuerzas por evolución selección
 Se comunicó que se prohibían fiestas o eventos sociales y la policía puede intervenir fiestas en viviendas. Ahí vendría la política, que quizás podría o debería estar por un nivel .más arriba que la política (leyes, normas, recomendaciones), pero si como sociedad no somos capaces de cumplir con lo mínimo, ¿Cómo pensamos mejorar Latinoamérica?, también alguien podría decirme ¿Por qué mejorar Latinoamérica? y ¿Por qué nos quejamos, si somos parte y raíz del problema?. Es problema del individuo, como de la sociedad y sistema, falta de educación ética, filosófica, lógica, psicológica más que religión.
                     
 Veamos cómo avanza este día que aún no se acaba, déjenme sus comentarios si tienen argumentos para continuar el debate o conversación.
+
+![Polvo pica pica, representando celebración](/img/SS/Blogs/fiesta.jpg)
