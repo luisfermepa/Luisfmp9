@@ -25,3 +25,10 @@
 i.prefix.active {
     color: rgb(53, 127, 211) !important;
 }
+
+input[type="checkbox"]:checked + span:not(.lever)::before{
+    border:2px solid transparent;
+    border-bottom:2px solid rgba(53, 127, 211);
+    border-right:2px solid rgba(53, 127, 211);
+    background:transparent;
+}
