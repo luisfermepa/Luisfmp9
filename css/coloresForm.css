@@ -23,5 +23,5 @@
 }
 /* icon prefix focus color */
 i.prefix.active {
-    color: rgb(53, 127, 211);
+    color: rgb(53, 127, 211) !important;
 }
