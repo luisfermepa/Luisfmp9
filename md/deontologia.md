@@ -18,5 +18,4 @@ La naturalidad no necesariamente implica bondad o superioridad, esa es otra de t
 Todos tienen la capacidad para cambiar su situación, con: talento, esfuerzo, persistencia, ayuda, confianza, pensando fuera de la caja, fuera de lo convencional, pensando en nuevos o fuera de los paradigmas.
 Buscar salir por medios propios, es posible pero muy difícil o improbable, solía pensar que se puede malacostumbrar a que te resuelvan tus problemas y que por ello existía mediocridad esperando que el estado resuelva todo, pero la verdad es que tenemos suerte, ustedes leyendo y yo escribiendo esto con acceso a internet una computadora y luz que pagan mis familiares, no es cierto que se puede desarrollar totalmente individualmente ya que todos tenemos familiares y suerte de tenerlos, no todos los tienen o en las mismas situaciones, hay personas que nacen en peores condiciones sin siquiera tener acceso a servicios básicos como los mencionados, naciendo también se nos asignan: nacionalidades, religiones, crianza por sexo, ideas preconcebidas, etc.
 
-![Representación de dios](/img/SS/Blogs/dios.jpg)
-{: responsive-img}
+<img class="responsive-img" src="/img/SS/Blogs/dios.jpg" alt="Representación de dios">

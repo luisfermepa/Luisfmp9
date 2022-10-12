@@ -14,4 +14,4 @@ Se comunicó que se prohibían fiestas o eventos sociales y la policía puede in
                     
 Veamos cómo avanza este día que aún no se acaba, déjenme sus comentarios si tienen argumentos para continuar el debate o conversación.
 
-![Polvo pica pica, representando celebración](/img/SS/Blogs/fiesta.jpg)
+<img class="responsive-img" src="/img/SS/Blogs/fiesta.jpg" alt="Polvo pica pica, representando celebración">
