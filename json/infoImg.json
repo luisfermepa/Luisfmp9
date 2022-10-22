@@ -1,102 +1,162 @@
 [
-        {
-            "prioridad" : 2, 
-            "src" : "/img/SS/cert1.jpg",
-            "alt" : "Certificado de Introducción a la Terminal y Línea de Comandos de Platzi"
-        },
-        {
-            "prioridad" : 3,
-            "src" : "/img/SS/cert2.jpg",
-            "alt" : "Certificado por la participación en la IGDA Jam con el Proyecto Mictlán Challenge"
-        },
-        {
-            "prioridad" : 2,
-            "src" : "/img/SS/cert3.png",
-            "alt" : "Certificado de Fundamentos de Ingeniería de Software de Platzi"
-        },
-        {
-            "prioridad" : 2,
-            "src" : "/img/SS/desweb1.jpg",
-            "alt" : "Certificado de Introducción al Desarrollo Web 1 de Google"
-        },
-        {
-            "prioridad" : 2,
-            "src" : "/img/SS/desweb2.jpg",
-            "alt" : "Certificado de Introducción al Desarrollo Web 2 de Google"
-        },
-        {
-            "prioridad" : 3,
-            "src" : "/img/SS/foodWarGJ.png",
-            "alt" : "1er puesto en la Network Jam"
-        },
-        {
-            "prioridad" : 1,
-            "src" : "/img/SS/markvoz.jpg",
-            "alt" : "Certificado de Marketing de Voz a Voz de Platzi"
-        },
-        {
-            "prioridad" : 2,
-            "src" : "/img/SS/progr.jpg",
-            "alt" : "Certificado de Programación Básica de Platzi"
-        },
-        {
-            "prioridad" : 3,
-            "src" : "/img/SS/tallerstartups.jpg",
-            "alt" : "Certificado del Taller de Creación de Startups de Platzi"
-        },
-        {
-            "prioridad" : 2,
-            "src" : "/img/SS/blockchain.jpg",
-            "alt" : "Certificado de Blockchain Essentias de IBM"
-        },
-        {
-            "prioridad" : 2,
-            "src" : "/img/SS/comunicacion.jpg",
-            "alt" : "Certificado de Comunicación Efectiva para Equipos de Trabajo de Platzi"
-        },
-        {
-            "prioridad" : 2,
-            "src" : "/img/SS/finanzas.jpg",
-            "alt" : "Certificado de Finanzas para Startups de Platzi"
-        },
-        {
-            "prioridad" : 2,
-            "src" : "/img/SS/growth.jpg",
-            "alt" : "Certificado de Growth para Startups de Platzi"
-        },
-        {
-            "prioridad" : 2,
-            "src" : "/img/SS/internacionalizacion.jpg",
-            "alt" : "Certificado de Internacionalización para Startups de Platzi"
-        },
-        {
-            "prioridad" : 3,
-            "src" : "/img/SS/juegos.jpg",
-            "alt" : "Certificado de Introducción al Diseño de Videojuegos de Fundación Telefónica Movistar"
-        },
-        {
-            "prioridad" : 2,
-            "src" : "/img/SS/lider.jpg",
-            "alt" : "Certificado de Liderazgo para equipos de Trabajo de Platzi"
-        },
-        {
-            "prioridad" : 1,
-            "src" : "/img/SS/logistica.jpg",
-            "alt" : "Certificado de Logística para Startups de Platzi"
-        },
-        {
-            "prioridad" : 1,
-            "src" : "/img/SS/reclutamiento.jpg",
-            "alt" : "Certificado de Reclutamiento de Talento de Platzi"
-        },
-        {
-            "prioridad" : 3,
-            "src" : "/img/SS/scrum.jpg",
-            "alt" : "Certificado de Scrum Fundation Professional de CertiProf"
-        },
-        {
-            "prioridad" : 2,
-            "src" : "/img/SS/seo.jpg",
-            "alt" : "Certificado de Posicionamiento en Buscadores de Platzi"
-        }
+    {
+        "prioridad" : 2, 
+        "src" : "/img/SS/cert1.jpg",
+        "alt" : "Certificado de Introducción a la Terminal y Línea de Comandos de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/2292-terminal/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Introducción a la Terminal y Línea de Comandos de Platzi.",
+        "fecha" : "02/12/2021"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/cert2.jpg",
+        "alt" : "Certificado por la participación en la IGDA Jam con el Proyecto Mictlán Challenge",
+        "url" : "https://eniergarcia.itch.io/mictlan-challenge",
+        "descripcion" : "Participé en la IGDA Jam con el proyecto Mictlán Challege con el que quedamos en 5to puesto.",
+        "fecha" : "01/11/2021"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/cert3.png",
+        "alt" : "Certificado de Fundamentos de Ingeniería de Software de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1098-ingenieria/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Fundamentos de Ingeniería de Software en Platzi.",
+        "fecha" : "27/11/2021"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/desweb1.jpg",
+        "alt" : "Certificado de Introducción al Desarrollo Web 1 de Google",
+        "url" : "https://drive.google.com/file/d/16QFFX9riKDwcEF2Ur6Kj2oyzhxYkQs2h/view?usp=sharing",
+        "descripcion" : "Culminé el curso de Introducción al Desarrollo Web 1 de Google.",
+        "fecha" : "21/05/2021"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/desweb2.jpg",
+        "alt" : "Certificado de Introducción al Desarrollo Web 2 de Google",
+        "url" : "https://drive.google.com/file/d/18cf0N8Tu2GuAwTlkvaxXLRdgDThgQPkI/view?usp=sharing",
+        "descripcion" : "Culminé el curso de Introducción al Desarrollo Web 2 de Google.",
+        "fecha" : "11/07/2021"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/foodWarGJ.png",
+        "alt" : "1er puesto en la Network Jam",
+        "url" : "https://marthaescalante.itch.io/food-war",
+        "descripcion" : "Participé en la Network Jam con el proyecto FoodWar con el que quedamos en 1er puesto.",
+        "fecha" : "03/10/2021"
+    },
+    {
+        "prioridad" : 1,
+        "src" : "/img/SS/markvoz.jpg",
+        "alt" : "Certificado de Marketing de Voz a Voz de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1058-marketing-voz-2016/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Marketing de Voz a Voz en Platzi",
+        "fecha" : "12/10/2021"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/progr.jpg",
+        "alt" : "Certificado de Programación Básica de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1050-basico-programacion/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Programación Básica en Platzi",
+        "fecha" : "15/04/2021"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/tallerstartups.jpg",
+        "alt" : "Certificado del Taller de Creación de Startups de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/49-taller-startups-2019/diploma/detalle/",
+        "descripcion" : "Culminé el Taller de Creación de Startups en Platzi",
+        "fecha" : "06/10/2021"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/blockchain.jpg",
+        "alt" : "Certificado Blockchain Essentials de IBM",
+        "url" : "https://drive.google.com/file/d/1ZdORi9VvTtxUEvifNUvzNxSdNnA4yA2Y/view?usp=sharing",
+        "descripcion" : "Culminé el curso Blockchain Essentials en IMB",
+        "fecha" : "07/05/2021"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/comunicacion.jpg",
+        "alt" : "Certificado de Comunicación Efectiva para Equipos de Trabajo de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/2060-comunicacion-equipos/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Comunicación Efectiva para Equipos de Trabajo en Platzi",
+        "fecha" : "06/02/2021"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/finanzas.jpg",
+        "alt" : "Certificado de Finanzas para Startups de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1325-financiera-startups/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Finanzas para Startups en Platzi",
+        "fecha" : "13/03/2021"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/growth.jpg",
+        "alt" : "Certificado de Growth para Startups de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/2023-growth-startups/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Growth para Startups en Platzi",
+        "fecha" : "17/02/2021"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/internacionalizacion.jpg",
+        "alt" : "Certificado de Internacionalización para Startups de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1266-internacionalizacion-startups/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Internacionalización para Startups en Platzi",
+        "fecha" : "03/04/2021"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/juegos.jpg",
+        "alt" : "Certificado de Introducción al Diseño de Videojuegos de Fundación Telefónica Movistar",
+        "url" : "https://drive.google.com/file/d/1pkh1ckXwyDdCZG3ZwgWiVH4M_2fzSgir/view",
+        "descripcion" : "Culminé el curso de Fundamentos de Ingeniería de Software en Platzi",
+        "fecha" : "27/11/2020"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/lider.jpg",
+        "alt" : "Certificado de Liderazgo para equipos de Trabajo de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1300-liderazgo-equipos/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Liderazgo para equipos de Trabajo en Platzi",
+        "fecha" : "27/01/2021"
+    },
+    {
+        "prioridad" : 1,
+        "src" : "/img/SS/logistica.jpg",
+        "alt" : "Certificado de Logística para Startups de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1897-logistica-startups/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Logística para Startups en Platzi",
+        "fecha" : "01/03/2021"
+    },
+    {
+        "prioridad" : 1,
+        "src" : "/img/SS/reclutamiento.jpg",
+        "alt" : "Certificado de Reclutamiento de Talento de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1884-reclutamiento-talento/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Reclutamiento de Talento en Platzi",
+        "fecha" : "01/02/2021"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/scrum.jpg",
+        "alt" : "Certificado de Scrum Fundation Professional de CertiProf",
+        "url" : "https://drive.google.com/file/d/11n-12Ko7sVxZx721JshwN6GNx65VYT8Q/view?usp=sharing",
+        "descripcion" : "Culminé el curso de Scrum Fundation Professional en CertiProf",
+        "fecha" : "30/11/2020"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/seo.jpg",
+        "alt" : "Certificado de Posicionamiento en Buscadores de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1622-seo/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Posicionamiento en Buscadores en Platzi",
+        "fecha" : "17/01/2021"
+    }
 ]
