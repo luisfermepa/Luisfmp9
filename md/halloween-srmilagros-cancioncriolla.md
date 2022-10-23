@@ -1,6 +1,6 @@
-<h2 class="center-align blue-text text-darken-3">
+<h3 class="center-align blue-text text-darken-3">
 Halloween, Sr. de los Milagros y Canción Criolla
-</h2>
+</h3>
 
 Llegó el alma de la fiesta xD. 2da vez en mi vida que el mismo día escucho una procesión y ambulancias (no significa que tenga algo que ver, quizás esté correlacionado, pero no sea causalidad). Hoy en Perú hay 3 eventos: día de la canción criolla que cada vez me parece ver menos eventos al respecto (casi lo olvidé si no es por una historia de un amigo con su empresa), Halloween y último día de la procesión del Señor de los Milagros.
                     

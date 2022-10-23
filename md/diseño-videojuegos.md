@@ -1,6 +1,6 @@
-<h2 class="center-align blue-text text-darken-2">
+<h3 class="center-align blue-text text-darken-2">
 Análisis del Curso de Diseño de Videojuegos (Platzi)
-</h2>
+</h3>
 
 Aquí comienzo mi análisis sobre el Curso de Diseño de Videojuegos de Platzi, sobre la sección "Descubrir las bases del diseño de juegos".
 
