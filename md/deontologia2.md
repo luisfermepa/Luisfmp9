@@ -1,8 +1,8 @@
-<h2 class="center-align blue-text text-darken-2">
+<h3 class="center-align blue-text text-darken-2">
 Apuntes y Análisis sobre Ética y Deontología - (2/2)
-</h2>
+</h3>
 
-<h3 class="blue-text text-darken-3">Estática Profesional</h3>
+<h4 class="blue-text text-darken-3">Estática Profesional</h4>
 
 ¿Los profesionales deberían intervenir siempre de acuerdo a su ideario? sea suyo u obtenido, pero bajo una perspectiva individual bajo las circunstancias y toma de decisiones más que seguir reglas que son ley o sugerencias consideradas éticas en la deontología. Si bien cada persona tiene sus perspectivas e idearios individuales, la sociedad progresa en conjunto, pero a la vez la ética y deontología nos dicen que están sobre la ley y posiblemente son mejores que esta si se aplican correctamente, entonces habría que obrar de acuerdo a nuestras máximas individuales siempre y cuando la situación amerite una mejor solución al problema considerando o no las consecuencias con el tiempo y recursos que tendríamos para reaccionar.
 

@@ -1,6 +1,6 @@
-<h2 class="center-align blue-text text-darken-2">
+<h3 class="center-align blue-text text-darken-2">
 Apuntes y Análisis sobre Ética y Deontología - (1/2)
-</h2>
+</h3>
 
 Hola, haré un análisis y extensión de mis notas reflexionadas en el curso "Ética y Deontología" dictado por el profesor Fernando Robert Araujo Coronel en la "UPAO (Universidad Privada Antenor Orrego)" ubicada en "Trujillo (Perú)" y demás conocimientos obtenidos de diversas fuentes, ya que para crear hay primero que consumir, inspirarse y tener ideas encontradas con autores previos.
 
@@ -11,7 +11,7 @@ Mientras un perro está mordiendo se le es más difícil ladrar y viceversa. Aun
                     
 La naturalidad no necesariamente implica bondad o superioridad, esa es otra de tantas frases erradas, "es natural, no es dañino", las cosas artificiales están planeadas, lo natural probablemente no haya sido: diseñado, pensado, ni planeado. Tampoco significa que todo lo natural sea malo o inferior y viceversa, hay que dinámicos, no estáticos, pensar en perspectivas y situaciones en las que convendría utilizar algo natural o artificial, pero para ello hay que profundizar, no dejarse engañar por lo que piensan nuestros cercanos o por textos cortos carentes de análisis.
 
-<h3 class="blue-text text-darken-3">Dios y la naturalidad de la maldad.</h3>
+<h4 class="blue-text text-darken-3">Dios y la naturalidad de la maldad.</h4>
 
 ¿Dios creó al hombre a su imagen y semejanza o el hombre creó a dios a su imagen y semejanza?, si dios fuese superior a nosotros ¿Por qué habría de crear: algo inferior, que dude de el, con tanta maldad y defectos?. Si planeó todo ¿por qué tuvo equivocaciones? pareciera el plan de un humano con miles de variables que no consideró por creerlas insignificantes y que terminaron significando mas de lo esperado en algún sentido o en su conjunto. ¿Dios es todopoderoso y todobondadoso?, si es así ¿Por qué creó un universo dinámico y cambiante y no algo estático y perfecto sin: problemas, errores, tragedias, crímenes, sufrimiento, guerras, etc? No afirmo que dios no sirva o sea falso, mi postura es agnóstica, es decir afirmo o niego lo que está en la posibilidad del conocimiento humano y en la mía, quizás sirva para dar esperanzas de una evolución perfecta al humano o para tener esperanza en justamente todas las situaciones negativas mencionadas, espero dejarte mas dudas que respuestas.
 
