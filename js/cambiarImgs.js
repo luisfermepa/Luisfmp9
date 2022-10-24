@@ -20,8 +20,7 @@ btnIzq.addEventListener("click", mostrarPaginaAnterior,true);
 btnDer.addEventListener("click", mostrarPaginaSiguiente,true);
 
 for(let i=tamannoListaBtns; i>=0; i--){
-    if(listaBtns[i].value==0 || listaBtns[i].value==0){
-    } else{
+    if(!listaBtns[i].value==0){
         document.getElementById("btn"+i).addEventListener("click", function(){mostrarPagina(i)}, true);
     }
 }
