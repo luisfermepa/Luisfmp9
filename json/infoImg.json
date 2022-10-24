@@ -10,7 +10,7 @@
     {
         "prioridad" : 3,
         "src" : "/img/SS/cert2.jpg",
-        "alt" : "Certificado por la participación en la IGDA Jam con el Proyecto Mictlán Challenge",
+        "alt" : "Participación en la IGDA Jam con el proyecto Mictlán Challenge",
         "url" : "https://eniergarcia.itch.io/mictlan-challenge",
         "descripcion" : "Participé en la IGDA Jam con el proyecto Mictlán Challege con el que quedamos en 5to puesto.",
         "fecha" : "01/11/2021"
@@ -42,7 +42,7 @@
     {
         "prioridad" : 3,
         "src" : "/img/SS/foodWarGJ.png",
-        "alt" : "1er puesto en la Network Jam",
+        "alt" : "1er puesto en la Network Jam con el proyecto FoodWar",
         "url" : "https://marthaescalante.itch.io/food-war",
         "descripcion" : "Participé en la Network Jam con el proyecto FoodWar con el que quedamos en 1er puesto.",
         "fecha" : "03/10/2021"
@@ -158,5 +158,61 @@
         "url" : "https://platzi.com/p/luisfmp9/curso/1622-seo/diploma/detalle/",
         "descripcion" : "Culminé el curso de Posicionamiento en Buscadores en Platzi",
         "fecha" : "17/01/2021"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/disPerso.png",
+        "alt" : "Certificado de Diseño y Prototipado de Personajes de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1251-prototipado-personajes/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Diseño y Prototipado de Personajes en Platzi",
+        "fecha" : "06/02/2022"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/disVideoj.png",
+        "alt" : "Certificado de Diseño de Videojuegos de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1783-diseno-videojuegos/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Diseño y Prototipado de Personajes en Platzi",
+        "fecha" : "17/02/2022"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/introProd.png",
+        "alt" : "Certificado de Introducción a la Producción de Videojuegos de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/2269-produccion-videojuegos/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Introducción a la Producción de Videojuegos en Platzi",
+        "fecha" : "10/02/2022"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/LGJ.png",
+        "alt" : "Participación en la Lima Game Jam 2022 con el proyecto Humazoide",
+        "url" : "https://globalgamejam.org/2022/games/humazoide-1",
+        "descripcion" : "Participé en la Lima Game Jam 2022 / Global Game Jam con el proyecto Humazoide",
+        "fecha" : "31/01/2022"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/markVid.png",
+        "alt" : "Certificado de Introducción al Marketing para Videojuegos de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1746-marketing-vg/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Introducción al Marketing para Videojuegos en Platzi",
+        "fecha" : "06/02/2022"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/PlanDirVideojuegos.png",
+        "alt" : "Certificado de Planeación y Dirección de Videojuegos Indies de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/2433-direccion-videojuegos-indies/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Planeación y Dirección de Videojuegos Indies en Platzi",
+        "fecha" : "12/02/2022"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/creaVid.png",
+        "alt" : "Certificado de Creación de Videojuegos de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1062-creacion-videojuegos/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Creación de Videojuegos en Platzi",
+        "fecha" : "31/10/2020"
     }
 ]
