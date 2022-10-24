@@ -1,6 +1,6 @@
 [
     {
-        "prioridad" : 2, 
+        "prioridad" : 1,
         "src" : "/img/SS/cert1.jpg",
         "alt" : "Certificado de Introducción a la Terminal y Línea de Comandos de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/2292-terminal/diploma/detalle/",
@@ -16,7 +16,7 @@
         "fecha" : "01/11/2021"
     },
     {
-        "prioridad" : 2,
+        "prioridad" : 3,
         "src" : "/img/SS/cert3.png",
         "alt" : "Certificado de Fundamentos de Ingeniería de Software de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1098-ingenieria/diploma/detalle/",
@@ -24,7 +24,7 @@
         "fecha" : "27/11/2021"
     },
     {
-        "prioridad" : 2,
+        "prioridad" : 1,
         "src" : "/img/SS/desweb1.jpg",
         "alt" : "Certificado de Introducción al Desarrollo Web 1 de Google",
         "url" : "https://drive.google.com/file/d/16QFFX9riKDwcEF2Ur6Kj2oyzhxYkQs2h/view?usp=sharing",
@@ -56,7 +56,7 @@
         "fecha" : "12/10/2021"
     },
     {
-        "prioridad" : 2,
+        "prioridad" : 1,
         "src" : "/img/SS/progr.jpg",
         "alt" : "Certificado de Programación Básica de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1050-basico-programacion/diploma/detalle/",
@@ -72,7 +72,7 @@
         "fecha" : "06/10/2021"
     },
     {
-        "prioridad" : 2,
+        "prioridad" : 1,
         "src" : "/img/SS/blockchain.jpg",
         "alt" : "Certificado Blockchain Essentials de IBM",
         "url" : "https://drive.google.com/file/d/1ZdORi9VvTtxUEvifNUvzNxSdNnA4yA2Y/view?usp=sharing",
@@ -80,7 +80,7 @@
         "fecha" : "07/05/2021"
     },
     {
-        "prioridad" : 2,
+        "prioridad" : 1,
         "src" : "/img/SS/comunicacion.jpg",
         "alt" : "Certificado de Comunicación Efectiva para Equipos de Trabajo de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/2060-comunicacion-equipos/diploma/detalle/",
@@ -88,7 +88,7 @@
         "fecha" : "06/02/2021"
     },
     {
-        "prioridad" : 2,
+        "prioridad" : 1,
         "src" : "/img/SS/finanzas.jpg",
         "alt" : "Certificado de Finanzas para Startups de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1325-financiera-startups/diploma/detalle/",
@@ -104,7 +104,7 @@
         "fecha" : "17/02/2021"
     },
     {
-        "prioridad" : 2,
+        "prioridad" : 1,
         "src" : "/img/SS/internacionalizacion.jpg",
         "alt" : "Certificado de Internacionalización para Startups de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1266-internacionalizacion-startups/diploma/detalle/",
@@ -144,7 +144,7 @@
         "fecha" : "01/02/2021"
     },
     {
-        "prioridad" : 3,
+        "prioridad" : 2,
         "src" : "/img/SS/scrum.jpg",
         "alt" : "Certificado de Scrum Fundation Professional de CertiProf",
         "url" : "https://drive.google.com/file/d/11n-12Ko7sVxZx721JshwN6GNx65VYT8Q/view?usp=sharing",
