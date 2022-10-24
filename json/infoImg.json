@@ -16,7 +16,7 @@
         "fecha" : "01/11/2021"
     },
     {
-        "prioridad" : 3,
+        "prioridad" : 1,
         "src" : "/img/SS/cert3.png",
         "alt" : "Certificado de Fundamentos de Ingeniería de Software de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1098-ingenieria/diploma/detalle/",
@@ -52,7 +52,7 @@
         "src" : "/img/SS/markvoz.jpg",
         "alt" : "Certificado de Marketing de Voz a Voz de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1058-marketing-voz-2016/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Marketing de Voz a Voz en Platzi",
+        "descripcion" : "Culminé el curso de Marketing de Voz a Voz en Platzi.",
         "fecha" : "12/10/2021"
     },
     {
@@ -60,7 +60,7 @@
         "src" : "/img/SS/progr.jpg",
         "alt" : "Certificado de Programación Básica de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1050-basico-programacion/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Programación Básica en Platzi",
+        "descripcion" : "Culminé el curso de Programación Básica en Platzi.",
         "fecha" : "15/04/2021"
     },
     {
@@ -68,7 +68,7 @@
         "src" : "/img/SS/tallerstartups.jpg",
         "alt" : "Certificado del Taller de Creación de Startups de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/49-taller-startups-2019/diploma/detalle/",
-        "descripcion" : "Culminé el Taller de Creación de Startups en Platzi",
+        "descripcion" : "Culminé el Taller de Creación de Startups en Platzi.",
         "fecha" : "06/10/2021"
     },
     {
@@ -76,7 +76,7 @@
         "src" : "/img/SS/blockchain.jpg",
         "alt" : "Certificado Blockchain Essentials de IBM",
         "url" : "https://drive.google.com/file/d/1ZdORi9VvTtxUEvifNUvzNxSdNnA4yA2Y/view?usp=sharing",
-        "descripcion" : "Culminé el curso Blockchain Essentials en IMB",
+        "descripcion" : "Culminé el curso Blockchain Essentials en IMB.",
         "fecha" : "07/05/2021"
     },
     {
@@ -84,7 +84,7 @@
         "src" : "/img/SS/comunicacion.jpg",
         "alt" : "Certificado de Comunicación Efectiva para Equipos de Trabajo de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/2060-comunicacion-equipos/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Comunicación Efectiva para Equipos de Trabajo en Platzi",
+        "descripcion" : "Culminé el curso de Comunicación Efectiva para Equipos de Trabajo en Platzi.",
         "fecha" : "06/02/2021"
     },
     {
@@ -92,7 +92,7 @@
         "src" : "/img/SS/finanzas.jpg",
         "alt" : "Certificado de Finanzas para Startups de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1325-financiera-startups/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Finanzas para Startups en Platzi",
+        "descripcion" : "Culminé el curso de Finanzas para Startups en Platzi.",
         "fecha" : "13/03/2021"
     },
     {
@@ -100,7 +100,7 @@
         "src" : "/img/SS/growth.jpg",
         "alt" : "Certificado de Growth para Startups de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/2023-growth-startups/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Growth para Startups en Platzi",
+        "descripcion" : "Culminé el curso de Growth para Startups en Platzi.",
         "fecha" : "17/02/2021"
     },
     {
@@ -108,15 +108,15 @@
         "src" : "/img/SS/internacionalizacion.jpg",
         "alt" : "Certificado de Internacionalización para Startups de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1266-internacionalizacion-startups/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Internacionalización para Startups en Platzi",
+        "descripcion" : "Culminé el curso de Internacionalización para Startups en Platzi.",
         "fecha" : "03/04/2021"
     },
     {
-        "prioridad" : 3,
+        "prioridad" : 2,
         "src" : "/img/SS/juegos.jpg",
         "alt" : "Certificado de Introducción al Diseño de Videojuegos de Fundación Telefónica Movistar",
         "url" : "https://drive.google.com/file/d/1pkh1ckXwyDdCZG3ZwgWiVH4M_2fzSgir/view",
-        "descripcion" : "Culminé el curso de Fundamentos de Ingeniería de Software en Platzi",
+        "descripcion" : "Culminé el curso de Introducción al Diseño de Videojuegos en Fundación Telefónica Movistar.",
         "fecha" : "27/11/2020"
     },
     {
@@ -124,7 +124,7 @@
         "src" : "/img/SS/lider.jpg",
         "alt" : "Certificado de Liderazgo para equipos de Trabajo de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1300-liderazgo-equipos/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Liderazgo para equipos de Trabajo en Platzi",
+        "descripcion" : "Culminé el curso de Liderazgo para equipos de Trabajo en Platzi.",
         "fecha" : "27/01/2021"
     },
     {
@@ -132,7 +132,7 @@
         "src" : "/img/SS/logistica.jpg",
         "alt" : "Certificado de Logística para Startups de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1897-logistica-startups/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Logística para Startups en Platzi",
+        "descripcion" : "Culminé el curso de Logística para Startups en Platzi.",
         "fecha" : "01/03/2021"
     },
     {
@@ -140,7 +140,7 @@
         "src" : "/img/SS/reclutamiento.jpg",
         "alt" : "Certificado de Reclutamiento de Talento de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1884-reclutamiento-talento/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Reclutamiento de Talento en Platzi",
+        "descripcion" : "Culminé el curso de Reclutamiento de Talento en Platzi.",
         "fecha" : "01/02/2021"
     },
     {
@@ -148,7 +148,7 @@
         "src" : "/img/SS/scrum.jpg",
         "alt" : "Certificado de Scrum Fundation Professional de CertiProf",
         "url" : "https://drive.google.com/file/d/11n-12Ko7sVxZx721JshwN6GNx65VYT8Q/view?usp=sharing",
-        "descripcion" : "Culminé el curso de Scrum Fundation Professional en CertiProf",
+        "descripcion" : "Culminé el curso de Scrum Fundation Professional en CertiProf.",
         "fecha" : "30/11/2020"
     },
     {
@@ -156,7 +156,7 @@
         "src" : "/img/SS/seo.jpg",
         "alt" : "Certificado de Posicionamiento en Buscadores de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1622-seo/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Posicionamiento en Buscadores en Platzi",
+        "descripcion" : "Culminé el curso de Posicionamiento en Buscadores en Platzi.",
         "fecha" : "17/01/2021"
     },
     {
@@ -164,7 +164,7 @@
         "src" : "/img/SS/disPerso.png",
         "alt" : "Certificado de Diseño y Prototipado de Personajes de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1251-prototipado-personajes/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Diseño y Prototipado de Personajes en Platzi",
+        "descripcion" : "Culminé el curso de Diseño y Prototipado de Personajes en Platzi.",
         "fecha" : "06/02/2022"
     },
     {
@@ -172,7 +172,7 @@
         "src" : "/img/SS/disVideoj.png",
         "alt" : "Certificado de Diseño de Videojuegos de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1783-diseno-videojuegos/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Diseño y Prototipado de Personajes en Platzi",
+        "descripcion" : "Culminé el curso de Diseño de Videojuegos en Platzi.",
         "fecha" : "17/02/2022"
     },
     {
@@ -180,7 +180,7 @@
         "src" : "/img/SS/introProd.png",
         "alt" : "Certificado de Introducción a la Producción de Videojuegos de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/2269-produccion-videojuegos/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Introducción a la Producción de Videojuegos en Platzi",
+        "descripcion" : "Culminé el curso de Introducción a la Producción de Videojuegos en Platzi.",
         "fecha" : "10/02/2022"
     },
     {
@@ -188,7 +188,7 @@
         "src" : "/img/SS/LGJ.png",
         "alt" : "Participación en la Lima Game Jam 2022 con el proyecto Humazoide",
         "url" : "https://globalgamejam.org/2022/games/humazoide-1",
-        "descripcion" : "Participé en la Lima Game Jam 2022 / Global Game Jam con el proyecto Humazoide",
+        "descripcion" : "Participé en la Lima Game Jam 2022 / Global Game Jam con el proyecto Humazoide.",
         "fecha" : "31/01/2022"
     },
     {
@@ -196,7 +196,7 @@
         "src" : "/img/SS/markVid.png",
         "alt" : "Certificado de Introducción al Marketing para Videojuegos de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1746-marketing-vg/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Introducción al Marketing para Videojuegos en Platzi",
+        "descripcion" : "Culminé el curso de Introducción al Marketing para Videojuegos en Platzi.",
         "fecha" : "06/02/2022"
     },
     {
@@ -204,7 +204,7 @@
         "src" : "/img/SS/PlanDirVideojuegos.png",
         "alt" : "Certificado de Planeación y Dirección de Videojuegos Indies de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/2433-direccion-videojuegos-indies/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Planeación y Dirección de Videojuegos Indies en Platzi",
+        "descripcion" : "Culminé el curso de Planeación y Dirección de Videojuegos Indies en Platzi.",
         "fecha" : "12/02/2022"
     },
     {
@@ -212,7 +212,95 @@
         "src" : "/img/SS/creaVid.png",
         "alt" : "Certificado de Creación de Videojuegos de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1062-creacion-videojuegos/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Creación de Videojuegos en Platzi",
+        "descripcion" : "Culminé el curso de Creación de Videojuegos en Platzi.",
         "fecha" : "31/10/2020"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/dirVid.png",
+        "alt" : "Certificado de Dirección de Videojuegos de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1485-avanzado-videojuegos/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Dirección de Videojuegos en Platzi.",
+        "fecha" : "23/02/2022"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/profDisVid.png",
+        "alt" : "Certificado de Profesional de Diseño de Videojuegos de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1910-profesional-diseno-videojuegos/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Profesional de Diseño de Videojuegos en Platzi.",
+        "fecha" : "23/02/2022"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/NPC.png",
+        "alt" : "Certificado de Escritura de Personajes y NPC's en Videojuegos de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1509-personajes-npcs/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Escritura de Personajes y NPC's en Videojuegos en Platzi.",
+        "fecha" : "02/03/2022"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/cSharpVid.png",
+        "alt" : "Certificado de C# para Videojuegos de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1413-desarrollo-unity/diploma/detalle/",
+        "descripcion" : "Culminé el curso de C# para Videojuegos en Platzi.",
+        "fecha" : "15/03/2022"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/audioVid.png",
+        "alt" : "Certificado de Audio para Videojuegos: Fundamentos de Diseño Sonoro de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/2347-fundamentos-audio-videojuegos/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Audio para Videojuegos: Fundamentos de Diseño Sonoro en Platzi.",
+        "fecha" : "18/03/2022"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/prepPitch.png",
+        "alt" : "Certificado para Conseguir Inversión para Videojuegos: Preparar un Pitch Exitoso de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/2741-inversion-videojuegos-preparacion/diploma/detalle/",
+        "descripcion" : "Culminé el curso para Conseguir Inversión para Videojuegos: Preparar un Pitch Exitoso en Platzi.",
+        "fecha" : "20/03/2022"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/presPitch.png",
+        "alt" : "Certificado para Conseguir Inversión para Videojuegos Indies: Presentación de Pitch de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/2742-inversion-videojuegos-presentacion/diploma/detalle/",
+        "descripcion" : "Culminé el curso para Conseguir Inversión para Videojuegos Indies: Presentación de Pitch en Platzi.",
+        "fecha" : "22/03/2022"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/vid2D.png",
+        "alt" : "Certificado de Programación de Videojuegos 2D con Unity de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1887-unity-2d/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Programación de Videojuegos 2D con Unity en Platzi.",
+        "fecha" : "27/03/2022"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/markNegVid.png",
+        "alt" : "Certificado de Marketing y Negocios para Videojuegos de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1065-marketing-videojuegos/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Marketing y Negocios para Videojuegos en Platzi.",
+        "fecha" : "29/03/2022"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/testVid.png",
+        "alt" : "Certificado de Testing de Videojuegos de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1349-testing-videojuegos/diploma/detalle/",
+        "descripcion" : "Culminé el curso de Testing de Videojuegos en Platzi.",
+        "fecha" : "30/03/2022"
+    },
+    {
+        "prioridad" : 1,
+        "src" : "/img/SS/seguEmp.png",
+        "alt" : "Certificado de Curso Básico de Seguridad Informática para Empresas de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1647-seguridad-empresas-old/diploma/detalle/",
+        "descripcion" : "Culminé el Curso Básico de Seguridad Informática para Empresas en Platzi.",
+        "fecha" : "21/01/2021"
     }
 ]
