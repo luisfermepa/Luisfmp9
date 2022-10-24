@@ -50,9 +50,9 @@
     {
         "prioridad" : 1,
         "src" : "/img/SS/markvoz.jpg",
-        "alt" : "Certificado de Marketing de Voz a Voz de Platzi",
+        "alt" : "Certificado de Curso de Marketing de Voz a Voz de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1058-marketing-voz-2016/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Marketing de Voz a Voz en Platzi.",
+        "descripcion" : "Culminé el Curso de Marketing de Voz a Voz en Platzi.",
         "fecha" : "12/10/2021"
     },
     {
@@ -138,9 +138,9 @@
     {
         "prioridad" : 1,
         "src" : "/img/SS/reclutamiento.jpg",
-        "alt" : "Certificado de Reclutamiento de Talento de Platzi",
+        "alt" : "Certificado de Curso de Reclutamiento de Talento de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1884-reclutamiento-talento/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Reclutamiento de Talento en Platzi.",
+        "descripcion" : "Culminé el Curso de Reclutamiento de Talento en Platzi.",
         "fecha" : "01/02/2021"
     },
     {
@@ -154,9 +154,9 @@
     {
         "prioridad" : 2,
         "src" : "/img/SS/seo.jpg",
-        "alt" : "Certificado de Posicionamiento en Buscadores de Platzi",
+        "alt" : "Certificado de Introducción a SEO: Posicionamiento en Buscadores de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1622-seo/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Posicionamiento en Buscadores en Platzi.",
+        "descripcion" : "Culminé el Curso de Introducción a SEO: Posicionamiento en Buscadores en Platzi.",
         "fecha" : "17/01/2021"
     },
     {
@@ -196,7 +196,7 @@
         "src" : "/img/SS/markVid.png",
         "alt" : "Certificado de Introducción al Marketing para Videojuegos de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1746-marketing-vg/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Introducción al Marketing para Videojuegos en Platzi.",
+        "descripcion" : "Culminé el Curso de Introducción al Marketing para Videojuegos en Platzi.",
         "fecha" : "06/02/2022"
     },
     {
@@ -226,9 +226,9 @@
     {
         "prioridad" : 3,
         "src" : "/img/SS/profDisVid.png",
-        "alt" : "Certificado de Profesional de Diseño de Videojuegos de Platzi",
+        "alt" : "Certificado de Curso Profesional de Diseño de Videojuegos de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1910-profesional-diseno-videojuegos/diploma/detalle/",
-        "descripcion" : "Culminé el curso de Profesional de Diseño de Videojuegos en Platzi.",
+        "descripcion" : "Culminé el Curso Profesional de Diseño de Videojuegos en Platzi.",
         "fecha" : "23/02/2022"
     },
     {
@@ -302,5 +302,29 @@
         "url" : "https://platzi.com/p/luisfmp9/curso/1647-seguridad-empresas-old/diploma/detalle/",
         "descripcion" : "Culminé el Curso Básico de Seguridad Informática para Empresas en Platzi.",
         "fecha" : "21/01/2021"
+    },
+    {
+        "prioridad" : 2,
+        "src" : "/img/SS/intrCSharp.png",
+        "alt" : "Certificado de Introducción a C# de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/2198-introduccion-csharp/diploma/detalle/",
+        "descripcion" : "Culminé el Curso de Introducción a C# en Platzi.",
+        "fecha" : "03/03/2022"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/intrCreaPer.png",
+        "alt" : "Certificado de Curso de Introducción a la Creación de Personajes de Platzi",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1733-creacion-personajes/diploma/detalle/",
+        "descripcion" : "Culminé el Curso de Introducción a la Creación de Personajes en Platzi.",
+        "fecha" : "20/08/2022"
+    },
+    {
+        "prioridad" : 3,
+        "src" : "/img/SS/bachiller.png",
+        "alt" : "Grado Académico de Bachiller en Ingeniería de Computación y Sistemas",
+        "url" : "https://platzi.com/p/luisfmp9/curso/1733-creacion-personajes/diploma/detalle/",
+        "descripcion" : "Obtuve el Grado Académico de Bachiller en Ingeniería de Computación y Sistemas en UPAO Trujillo Perú.",
+        "fecha" : "06/05/2022"
     }
 ]
