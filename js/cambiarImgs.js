@@ -98,12 +98,12 @@ function mostrarImgsPorPagina(pagina){
                     } else if (fila1==true){
                         htmlTxt += `
                         <div class="row">
-                            <img class="col l6 m12 s12 responsive-img" src="${item.src}" alt="${item.alt}">
+                            <img class="col l6 m12 s12 responsive-img" decoding="async" loading="lazy" src="${item.src}" alt="${item.alt}">
                         `
                     }
                     else{
                         htmlTxt += `
-                            <img class="col l6 m12 s12 responsive-img" src="${item.src}" alt="${item.alt}">
+                            <img class="col l6 m12 s12 responsive-img" decoding="async" loading="lazy" src="${item.src}" alt="${item.alt}">
                         </div>
                         `
                         res.innerHTML+=htmlTxt;
