@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Contact with Luisfmp</title>
+    <meta name="description" content="Contact with Luisfmp Luis Fernando Mercado Paredes">
+    <meta name="keywords" content="Contact, form, contact form, luisfmp, Luis Fernando Mercado Paredes">
+    <meta name="author" content="Luis Fernando Mercado Paredes">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="icon.ico">
+    <link rel="stylesheet" href="css/generalidades.css">
+    <link rel="stylesheet" href="css/coloresForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <script type="module" src="js/modulos.js"></script>
+</head>
+
+<body>
+    <mi-header></mi-header>
+
+    <div id="fb-root"></div>
+
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "111284087032398");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <main>
+        <div class="container section">
+            <form action="https://formsubmit.co/luisfermepa9@gmail.com" method="POST">
+                <div class="row">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix text-darken-3">account_circle</i>
+                            <input name="nombres" id="nombres" required type="text" class="validate black-text">
+                            <label class="black-text" for="nombres">Complete Names</label>
+                            <span class="helper-text" data-error="Por favor ingrese nombres válidos" data-success="Correcto"></span>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix text-darken-3">account_circle</i>
+                            <input name="apellidos" id="apellidos" required type="text" class="validate black-text">
+                            <label class="black-text" for="apellidos">full last names</label>
+                            <span class="helper-text" data-error="Por favor ingrese apellidos válidos" data-success="Correcto"></span>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix text-darken-3">email</i>
+                            <input name="email" id="email" required type="email" class="validate black-text">
+                            <label class="black-text" for="email">Email</label>
+                            <span class="helper-text" data-error="Por favor ingrese un correo válido" data-success="Correcto"></span>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="black-text bold">Contact Subjects:</h6>
+                <div class="row">
+                    <div class="col s6">
+                        <p>
+                            <label>
+                            <input name="checkWeb" id="checkWeb" type="checkbox" value="Desarrollo Web"/>
+                            <span class="black-text">Web Development</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                            <input name="checkVideojuegos" id="checkVideojuegos" type="checkbox" value="Desarrollo de Videojuegos"/>
+                            <span class="black-text">Video Game Development</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="col s6">
+                        <p>
+                            <label>
+                            <input name="checkTec" id="checkTec" type="checkbox" value="Tecnología"/>
+                            <span class="black-text">Technology</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                            <input name="checkGestion" id="checkGestion" type="checkbox" value="Gestión"/>
+                            <span class="black-text">Management</span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix text-darken-3">account_circle</i>
+                    <input name="otrosAsuntos"" id="otrosAsuntos" type="text" class="validate black-text">
+                    <label class="black-text" for="otrosAsuntos">Additional subjects</label>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix text-darken-3">account_circle</i>
+                    <textarea name="mensaje" id="mensaje" required type="text" class="materialize-textarea validate black-text"></textarea>
+                    <label class="black-text" for="mensaje">Message</label>
+                    <span class="helper-text" data-error="Por favor ingrese un mensaje válido" data-success="Correcto"></span>
+                    
+                </div>
+                <div class="row"></div>
+                <div class="row center">
+                    <div class="col s12">
+                        <button name="btnEnviar" id="btnEnviar" class="btn-large waves-effect waves-blue col s12 blue darken-2 z-depth-3" type="submit" name="action">Send
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+                <input type="hidden" name="_next" value="https://luisfmp9.github.io/gracias">
+                <input type="hidden" name="_captcha" value="true">
+            </form>
+        </div>
+    </main>
+    
+    <mi-footer></mi-footer>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLTCJKBEQF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HLTCJKBEQF');
+    </script>
+
+    <script src="js/formulario.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+        });
+    </script>
+</body>
+</html>
