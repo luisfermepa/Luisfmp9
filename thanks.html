@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Thanks for contact me</title>
+    <meta name="description" content="Contact with Luisfmp Luis Fernando Mercado Paredes">
+    <meta name="keywords" content="contact, form, contact form, luisfmp, Luis Fernando Mercado Paredes">
+    <meta name="author" content="Luis Fernando Mercado Paredes">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="icon.ico">
+    <link rel="stylesheet" href="css/generalidades.css">
+    <link rel="stylesheet" href="css/coloresForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <script type="module" src="js/modulos.js"></script>
+</head>
+
+<body>
+    <mi-header></mi-header>
+
+    <div id="fb-root"></div>
+
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "111284087032398");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <main>
+        <div class="container section center">
+          <div class="col s12">
+            <div class="row"></div>
+            <div class="row"></div>
+          </div>
+          <div class="col s12 center">
+              <h5 class="blue-text text-darken-3">Thanks for contact me,</h5> 
+              <h5 class="blue-text text-darken-3">espero podamos iniciar una buena relación profesional!</h5>
+          </div>
+          <div class="col s12">
+            <div class="row"></div>
+          </div>
+          <div class="col s12 center">
+              <a href="contacto" class="btn-large waves-effect waves-blue col s12 blue darken-2 z-depth-3">Volver a Contacto</a>
+          </div>
+          <div class="col s12">
+              <div class="row"></div>
+              <div class="row"></div>
+          </div>
+        </div>
+    </main>
+    
+    <mi-footer></mi-footer>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLTCJKBEQF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HLTCJKBEQF');
+    </script>
+    
+    <script src="js/formulario.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+        });
+    </script>
+</body>
+</html>
