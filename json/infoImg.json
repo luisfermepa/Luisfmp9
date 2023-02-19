@@ -64,7 +64,7 @@
         "fecha" : "15/04/2021"
     },
     {
-        "prioridad" : 3,
+        "prioridad" : 2,
         "src" : "/img/SS/tallerstartups.jpg",
         "alt" : "Certificado del Taller de Creación de Startups de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/49-taller-startups-2019/diploma/detalle/",
@@ -168,7 +168,7 @@
         "fecha" : "06/02/2022"
     },
     {
-        "prioridad" : 3,
+        "prioridad" : 2,
         "src" : "/img/SS/disVideoj.png",
         "alt" : "Certificado de Diseño de Videojuegos de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1783-diseno-videojuegos/diploma/detalle/",
@@ -216,7 +216,7 @@
         "fecha" : "31/10/2020"
     },
     {
-        "prioridad" : 3,
+        "prioridad" : 2,
         "src" : "/img/SS/dirVid.png",
         "alt" : "Certificado de Dirección de Videojuegos de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1485-avanzado-videojuegos/diploma/detalle/",
@@ -280,7 +280,7 @@
         "fecha" : "27/03/2022"
     },
     {
-        "prioridad" : 3,
+        "prioridad" : 2,
         "src" : "/img/SS/markNegVid.png",
         "alt" : "Certificado de Marketing y Negocios para Videojuegos de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1065-marketing-videojuegos/diploma/detalle/",
@@ -288,7 +288,7 @@
         "fecha" : "29/03/2022"
     },
     {
-        "prioridad" : 3,
+        "prioridad" : 2,
         "src" : "/img/SS/testVid.png",
         "alt" : "Certificado de Testing de Videojuegos de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1349-testing-videojuegos/diploma/detalle/",
@@ -312,7 +312,7 @@
         "fecha" : "03/03/2022"
     },
     {
-        "prioridad" : 3,
+        "prioridad" : 2,
         "src" : "/img/SS/intrCreaPer.png",
         "alt" : "Certificado de Curso de Introducción a la Creación de Personajes de Platzi",
         "url" : "https://platzi.com/p/luisfmp9/curso/1733-creacion-personajes/diploma/detalle/",
