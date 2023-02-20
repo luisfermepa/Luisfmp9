@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luisfmp's Achievements</title>
+    <meta name="description" content="The best Achievements of Luisfmp">
+    <meta name="keywords" content="Courses, Certificates, Awards, Achievements, Contests, luisfmp, Luis Fernando Mercado Paredes">
+    <meta name="author" content="Luis Fernando Mercado Paredes">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="icon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/generalidades.css">
+    <script type="module" src="js/modulos.js"></script>
+</head>
+<body>
+    <mi-header></mi-header>
+
+    <div id="fb-root"></div>
+
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "111284087032398");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <main>
+        <div class="row section scrollspy" id="container">
+            <div class="col s1"></div>
+            <div class="col s10" id="listaImgs">
+            </div>
+            <div class="col s1"></div>
+        </div>
+        
+        <ul id="Botones" class="pagination container section center"><li id="BtnIzquierda" class="disabled" value="0"><a href="#container" id="btnIzq"><i class="material-icons">chevron_left</i></a></li><li class="active blue" id="Btn1" value="1"><a id="btn1" href="#container">1</a></li><li class="waves-effect" id="Btn2" value="2"><a id="btn2" href="#container">2</a></li><li class="waves-effect" id="Btn3" value="3"><a id="btn3" href="#container">3</a></li><li id="BtnDerecha" class="waves-effect" value="0"><a href="#container" id="btnDer"><i class="material-icons">chevron_right</i></a></li></ul>
+    </main>
+    
+    <mi-footer></mi-footer>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLTCJKBEQF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HLTCJKBEQF');
+    </script>
+
+    <script src="js/cambiarImgs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+        });
+
+        var options= {
+            throttle: 100,
+            scrollOffset: 200
+        };
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.scrollspy');
+            var instances = M.ScrollSpy.init(elems, options);
+        });
+    </script>
+</body>
+</html>
