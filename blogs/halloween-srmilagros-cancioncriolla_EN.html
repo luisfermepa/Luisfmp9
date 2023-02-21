@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween, Sr de los Milagros y Canción Criolla</title>
+    <meta name="description" content="Análisis sobre Halloween, Sr. de los Milagros y la Canción Criolla en Perú">
+    <meta name="keywords" content="Halloween, sr de los milagros, canción criolla, análisis, blog, luisfmp, Luis Fernando Mercado Paredes, luisfmp9, Perú, peru">
+    <meta name="author" content="Luis Fernando Mercado Paredes">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="/icon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/generalidades.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLTCJKBEQF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HLTCJKBEQF');
+    </script>
+    <script type="module" src="modulos_EN.js"></script>
+</head>
+
+<body>
+    <mi-header></mi-header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s12" id="colum">
+                </div>
+            </div>
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://luisfmp.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </main>
+
+    <mi-footer></mi-footer>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLTCJKBEQF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HLTCJKBEQF');
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <script>
+        const d=document,
+            $main=d.querySelector("#colum");
+
+        fetch("/md/halloween-srmilagros-cancioncriolla.md")
+            .then(res => res.ok ? res.text() : Promise.reject(res))
+            .then(text => {
+                $main.innerHTML=new showdown.Converter().makeHtml(text);
+            })
+
+            .catch (err => {
+                let message=err.statusText || "Ocurrió un error";
+                $main.innerHTML = `Error ${err.status}: ${message}`;
+            });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+        });
+    </script>
+    <script id="dsq-count-scr" src="//luisfmp.disqus.com/count.js" async></script>
+</body>
+</html>
