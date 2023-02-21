@@ -71,7 +71,7 @@
         const d=document,
             $main=d.querySelector("#colum");
 
-        fetch("/md/deontologia2.md")
+        fetch("/md/deontology2.md")
             .then(res => res.ok ? res.text() : Promise.reject(res))
             .then(text => {
                 $main.innerHTML=new showdown.Converter().makeHtml(text);
