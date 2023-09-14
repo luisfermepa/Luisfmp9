@@ -40,7 +40,6 @@ class Footer extends HTMLElement {
                     <div class="col l6 s12">
                         <h5 class="white-text">Contáctame</h5>
                         <p class="grey-text text-lighten-4">You can reach me through these means :)</p>
-                        <p>+51 914 609 873</p>
                         <p>luisfermepa9@gmail.com</p>
                     </div>
                     <div class="col l4 offset-l2 s12">
