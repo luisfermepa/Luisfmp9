@@ -40,7 +40,6 @@ class Footer extends HTMLElement {
                     <div class="col l6 s12">
                         <h5 class="white-text">Contact me</h5>
                         <p class="grey-text text-lighten-4">You can reach me at :)</p>
-                        <p>+51 914 609 873</p>
                         <p>luisfermepa9@gmail.com</p>
                     </div>
                     <div class="col l4 offset-l2 s12">
@@ -58,7 +57,7 @@ class Footer extends HTMLElement {
                     <div class="container">
                         <div class="row valign-wrapper">
                             <div class="col s8">
-                                <p class="grey-text text-lighten-4 left valign-wrapper">© 2022 Luis Fernando Mercado Paredes</p>
+                                <p class="grey-text text-lighten-4 left valign-wrapper">© 2023 Luis Fernando Mercado Paredes</p>
                             </div>
                             <div class="col s4">
                                 <a class="grey-text text-lighten-4 left valign-wrapper" href="/luisfmp">https://luisfmp9.github.io/</a>
