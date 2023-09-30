@@ -61,12 +61,12 @@ class Footer extends HTMLElement {
                                 <p class="grey-text text-lighten-4 left valign-wrapper">© 2023 Luis Fernando Mercado Paredes</p>
                             </div>
                             <div class="col s4 hide-on-med-and-down">
-                                <a class="grey-text text-lighten-4 left valign-wrapper" href="/luisfmp">https://luisfmp9.github.io/</a>
+                                <a class="grey-text text-lighten-4 left valign-wrapper" href="//">https://luisfmp9.github.io/</a>
                             </div>
                         </div>
                         <div class="row valign-wrapper hide-on-large-only">
                             <div class="col s12">
-                                <a class="grey-text text-lighten-4 left valign-wrapper" href="/luisfmp">https://luisfmp9.github.io/</a>
+                                <a class="grey-text text-lighten-4 left valign-wrapper" href="//">https://luisfmp9.github.io/</a>
                             </div>
                         </div>
                     </div>
