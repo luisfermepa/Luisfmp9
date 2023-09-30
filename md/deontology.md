@@ -1,0 +1,20 @@
+<h3 class="center-align blue-text text-darken-2">
+Notes and Analysis on Ethics and Deontology - (1/2)
+</h3>
+
+Hi, I will do an analysis and extension of my notes reflected in the "Ethics and Deontology" course taught by Professor Fernando Robert Araujo Coronel at "UPAO (Universidad Privada Antenor Orrego)" located in "Trujillo (Peru)" and other knowledge obtained from various sources, since to create, one must first consume, be inspired, and have ideas found with previous authors.
+
+It is commonly said, "A barking dog never bites," but generally, simplistic phrases are just that: simplistic analyses of reality so that our brain saves energy, thus evading greater analysis, extensive debates or deepening knowledge, which not only takes effort and time but because sometimes we prefer happy lies to cruel truths.
+Those who say, "Ignorance is bliss," another simplistic phrase, preferring others to think for us.
+
+While a dog is biting, it is more difficult for it to bark, and vice versa. Although it is possible to do both actions at the same time, and most dogs have the ability to do both, some may not be able to do so due to their physical capabilities, traumas, the energy it costs them, or because they lived deceived all their lives believing phrases that they should dedicate themselves to something in life, so they couldn't perform the other actions that they could or even should naturally do.
+
+Naturalness does not necessarily imply goodness or superiority; that is another of many wrong phrases, "it's natural, it's not harmful," artificial things are planned, the natural may not have been designed, thought, or planned. Nor does it mean that everything natural is bad or inferior, and vice versa; we need to be dynamic, not static, think in perspectives and situations in which it would be convenient to use something natural or artificial, but for that, we need to deepen, not be deceived by what our close ones think or by short texts lacking analysis.
+
+<h4 class="blue-text text-darken-3">God and the naturalness of evil.</h4>
+
+Did God create man in his own image and likeness or did man create God in his own image and likeness? If God were superior to us, why would he create something inferior that doubts him, with so much evil and flaws? If he planned everything, why did he make mistakes? It seems like the plan of a human with thousands of variables that he did not consider because he thought they were insignificant and that ended up meaning more than expected in some way or as a whole. Is God all-powerful and all-good? If so, why did he create a dynamic and changing universe instead of something static and perfect without problems, errors, tragedies, crimes, suffering, wars, etc.? I do not claim that God is false or useless, my position is agnostic, that is, I affirm or deny what is within the possibility of human knowledge and my own, perhaps it serves to give hope for a perfect evolution of humanity or to have hope in precisely all the negative situations mentioned, I hope to leave you with more questions than answers.
+
+Everyone has the ability to change their situation, with talent, effort, persistence, help, trust, thinking outside the box, outside the conventional, thinking in new or outside paradigms. It is possible to seek a way out on our own, but it is very difficult or unlikely. I used to think that one could get used to having their problems solved and that is why mediocrity exists, waiting for the state to solve everything, but the truth is that we are lucky, you reading this and me writing it with access to the internet, a computer, and light paid for by my family. It is not true that we can develop totally individually since we all have relatives and are lucky to have them, not everyone has them or in the same situations. There are people who are born in worse conditions without even having access to basic services like the ones mentioned, and when we are born, we are assigned nationalities, religions, upbringing by sex, preconceived ideas, etc.
+
+<img class="responsive-img" decoding="async" loading="lazy" src="/img/SS/Blogs/dios.jpg" alt="Representation of God">
