@@ -57,7 +57,7 @@ class Footer extends HTMLElement {
                 <div class="footer-copyright grey darken-4">
                     <div class="container">
                         <div class="row valign-wrapper">
-                            <div class="col s12 m8">
+                            <div class="col s12 m12 l8">
                                 <p class="grey-text text-lighten-4 left valign-wrapper">© 2023 Luis Fernando Mercado Paredes</p>
                             </div>
                             <div class="col s4 hide-on-med-and-down">
