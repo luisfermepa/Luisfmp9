@@ -65,7 +65,7 @@ class Footer extends HTMLElement {
                         </div>
                         <div class="row valign-wrapper hide-on-large-only">
                             <div class="col s12">
-                                <a class="grey-text text-lighten-4 left valign-wrapper" href="/luisfmp">https://luisfmp9.github.io/</a>
+                                <a class="grey-text text-lighten-4 left valign-wrapper center" href="/luisfmp">https://luisfmp9.github.io/</a>
                             </div>
                         </div>
                     </div>
