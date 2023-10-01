@@ -1,3 +1,6 @@
+const fechaActual = new Date();
+const añoActual = fechaActual.getFullYear();
+
 class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -57,7 +60,7 @@ class Footer extends HTMLElement {
                     <div class="container">
                         <div class="row valign-wrapper">
                             <div class="col s12 m12 l8">
-                                <p class="grey-text text-lighten-4 left valign-wrapper">© 2023 Luis Fernando Mercado Paredes</p>
+                                <p class="grey-text text-lighten-4 left valign-wrapper">© ${añoActual} Luis Fernando Mercado Paredes</p>
                             </div>
                             <div class="col s4 hide-on-med-and-down">
                                 <a class="grey-text text-lighten-4 left valign-wrapper" href="//luisfmp">https://luisfmp9.github.io/</a>
