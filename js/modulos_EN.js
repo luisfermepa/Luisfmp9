@@ -37,7 +37,7 @@ class Header extends HTMLElement {
 class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <footer class="page-footer blue darken-4">
+            <fo oter class="page-footer blue darken-4">
                 <div class="container">
                     <div class="row center">
                         <div class="col l6 s12">
@@ -62,7 +62,7 @@ class Footer extends HTMLElement {
                             <div class="col s12 m12 l8">
                                 <p class="grey-text text-lighten-4 left valign-wrapper">© ${añoActual} Luis Fernando Mercado Paredes</p>
                             </div>
-                            <div class="col s4 hide-on-med-and-down">
+                            <div class="col l4 hide-on-med-and-down">
                                 <a class="grey-text text-lighten-4 left valign-wrapper" href="/luisfmp">https://luisfmp9.github.io/</a>
                             </div>
                         </div>
