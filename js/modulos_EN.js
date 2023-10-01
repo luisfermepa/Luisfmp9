@@ -56,19 +56,19 @@ class Footer extends HTMLElement {
                         </div>
                     </div>
                 </div>
-                <div class="footer-copyright grey darken-4">
-                    <div class="container">
+                <div class="footer-copyright grey darken-4 center">
+                    <div class="container center">
                         <div class="row center valign-wrapper">
-                            <div class="col s12 m12 l8">
-                                <p class="grey-text text-lighten-4 left valign-wrapper">© ${añoActual} Luis Fernando Mercado Paredes</p>
+                            <div class="col s12 m12 l8 center">
+                                <p class="center grey-text text-lighten-4 left valign-wrapper">© ${añoActual} Luis Fernando Mercado Paredes</p>
                             </div>
-                            <div class="col l4 hide-on-med-and-down">
-                                <a class="grey-text text-lighten-4 left valign-wrapper" href="/luisfmp">https://luisfmp9.github.io/</a>
+                            <div class="center col l4 hide-on-med-and-down">
+                                <a class="center grey-text text-lighten-4 left valign-wrapper" href="/luisfmp">https://luisfmp9.github.io/</a>
                             </div>
                         </div>
                         <div class="row center valign-wrapper hide-on-large-only">
-                            <div class="col s12">
-                                <a class="grey-text text-lighten-4 left valign-wrapper" href="/luisfmp">https://luisfmp9.github.io/</a>
+                            <div class="col s12 center">
+                                <a class="center grey-text text-lighten-4 left valign-wrapper" href="/luisfmp">https://luisfmp9.github.io/</a>
                             </div>
                         </div>
                     </div>
