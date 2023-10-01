@@ -61,7 +61,7 @@ class Footer extends HTMLElement {
                     <div class="container">
                         <div class="row center valign-wrapper">
                             <div class="col s12">
-                                <p class="grey-text text-lighten-4 valign-wrapper">© ${añoActual} Luis Fernando Mercado Paredes</p>
+                                <p class="center grey-text text-lighten-4 valign-wrapper">© ${añoActual} Luis Fernando Mercado Paredes</p>
                             </div>
                         </div>
                     </div>
