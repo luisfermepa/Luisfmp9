@@ -48,27 +48,20 @@ class Footer extends HTMLElement {
                     <div class="col l4 offset-l2 s12">
                         <h5 class="white-text">Links</h5>
                         <ul>
-                        <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/luisfmp9">Linkedin</a></li>
-                        <li><a class="grey-text text-lighten-3" href="https://luisfmp.itch.io/">Itch (Video Games)</a></li>
-                        <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/luisfmp2">Facebook</a></li>
-                        <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UCbGQB3Q26ABBMi3_-E3fcEA">Youtube</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/luisfmp9" target="_blank">Linkedin</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://luisfmp.itch.io/" target="_blank">Itch (Video Games)</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/luisfmp9/" target="_blank">Instagram</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/@Luisfmp" target="_blank">Youtube</a></li>
+                            <li><a class="grey-text text-lighten-3" href="//luisfmp">Website</a></li>
                         </ul>
                     </div>
                     </div>
                 </div>
                 <div class="footer-copyright grey darken-4">
                     <div class="container">
-                        <div class="row valign-wrapper">
-                            <div class="col s12 m12 l8">
-                                <p class="grey-text text-lighten-4 left valign-wrapper">© ${añoActual} Luis Fernando Mercado Paredes</p>
-                            </div>
-                            <div class="col s4 hide-on-med-and-down">
-                                <a class="grey-text text-lighten-4 left valign-wrapper" href="//luisfmp">https://luisfmp9.github.io/</a>
-                            </div>
-                        </div>
-                        <div class="row valign-wrapper hide-on-large-only">
+                        <div class="row">
                             <div class="col s12">
-                                <a class="grey-text text-lighten-4 left valign-wrapper" href="//luisfmp">https://luisfmp9.github.io/</a>
+                                <p class="grey-text text-lighten-4 center">© ${añoActual} Luis Fernando Mercado Paredes</p>
                             </div>
                         </div>
                     </div>
