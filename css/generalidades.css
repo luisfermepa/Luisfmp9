@@ -57,3 +57,11 @@ a {
 .imgEnlace {
     width: 290px;
 }
+
+.txtBtnIndex:hover {
+    color: darkblue;
+}
+
+.btnIndex:hover {
+    color: white;
+}
