@@ -63,5 +63,5 @@ a {
 }
 
 .btnIndex:hover {
-    color: white;
+    background-color: white !important;
 }
