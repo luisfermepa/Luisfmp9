@@ -59,9 +59,9 @@ a {
 }
 
 .txtBtnIndex:hover {
-    color: rgb(24, 120, 145);
 }
 
 .btnIndex:hover {
     background-color: white !important;
+    color: rgb(24, 120, 145);
 }
