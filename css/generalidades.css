@@ -1,3 +1,11 @@
+div .card-stacked, .card, .horizontal{
+    box-shadow: none;
+}
+
+.card {
+    border-radius: 20px;
+}
+
 /* * {
     border: solid 2px red
 }*/
