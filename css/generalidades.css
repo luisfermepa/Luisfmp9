@@ -58,7 +58,7 @@ a {
     width: 290px;
 }
 
-.btnIndex:hover {
+.btn-large:hover {
     background-color: white !important;
     color: rgb(24, 120, 145);
 }
