@@ -62,3 +62,7 @@ a {
     background-color: white !important;
     color: rgb(24, 120, 145);
 }
+
+.contcMobile {
+    padding-top: 4px;
+}
